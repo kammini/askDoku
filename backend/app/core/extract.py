@@ -5,7 +5,7 @@ import docx
 def extract_document(filepath: str) -> str:
     if filepath.endswith(".pdf"):
         reader = PdfReader(filepath)
-        text = "\n".join(page.extract_text() for page in reader.pages)
+        text = "\n".join(page.extract_text().replace("\xad", "") for page in reader.pages)
         return text
     
     elif filepath.endswith(".docx"):

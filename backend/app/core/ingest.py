@@ -1,5 +1,6 @@
 from .extract import extract_document
 from .chunk import chunk_text
+from .embed import embed_document
 
 def ingest_document(filepath: str):
     # extract
@@ -7,5 +8,6 @@ def ingest_document(filepath: str):
     # chunk
     chunks = chunk_text(text)
     # embed
-    print(chunks)
+    embedded_chunks = embed_document(chunks)
     # store
+    
