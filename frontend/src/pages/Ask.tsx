@@ -1,9 +1,10 @@
 export default function Ask() {
     const handleSubmit = async (event: React.FormEvent<HTMLFormElement>) => {
+        event.preventDefault();
         const formdata = new FormData(event.currentTarget);
-        fetch("#",{
+        const question = formdata.get("text") as string;
+        fetch(`http://localhost:8000/ask?question=${encodeURIComponent(question)}`, {
             method: "POST",
-            body: formdata
         })
     }
 

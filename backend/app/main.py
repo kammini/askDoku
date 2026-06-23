@@ -1,9 +1,19 @@
 from fastapi import FastAPI, UploadFile
 from app.core import ingest_document, retrieve_context, generate_response
+from fastapi.middleware.cors import CORSMiddleware
 
 app = FastAPI()
 
-@app.post("/ingest")
+origin = ['http://localhost:5173']
+
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=origin,
+    allow_methods=['*'],
+    allow_headers=['*'],
+)
+
+@app.post("/upload")
 async def ingest(file: UploadFile):
     content = await file.read()
     with open(f"test_docs/{file.filename}", "wb") as f:
