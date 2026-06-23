@@ -18,7 +18,7 @@ async def ingest(file: UploadFile):
     content = await file.read()
     with open(f"test_docs/{file.filename}", "wb") as f:
         f.write(content)
-    ingest_document(f"test_docs/{file.filename}")   
+    ingest_document(f"test_docs/{file.filename}")
     return {"status": "ok"}
 
 @app.post("/ask")
