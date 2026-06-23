@@ -1,11 +1,18 @@
 from app.core.clients import gemini
-from fastapi import UploadFile
+from .embed import embed_document
+from .clients import supabase
 
-CHUNKS = 512
+def generate_response(question: str) -> str:
+   res = gemini.models.generate_content(
+        model="gemini-2.0-flash",
+        input=question
+   )
+   return res
 
-async def generate_response(question: str) -> str:
-    # extract the file
-    content = await file.read()
-    print(content)
-
-    # chunk it
+def retrieve_context(question: str) -> list[str]:
+   embedding = embed_document([question])[0]
+   result = supabase.rpc(
+      "match_documents",
+      {"query_embedding": embedding, "match_count": 5}
+   ).execute()
+   return [row["content"] for row in result.data]
