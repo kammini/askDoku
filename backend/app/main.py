@@ -1,5 +1,5 @@
 from fastapi import FastAPI, UploadFile
-from app.core import ingest_document
+from app.core import ingest_document, retrieve_context, generate_response
 
 app = FastAPI()
 
@@ -10,3 +10,9 @@ async def ingest(file: UploadFile):
         f.write(content)
     ingest_document(f"test_docs/{file.filename}")   
     return {"status": "ok"}
+
+@app.post("/ask")
+async def ask(question: str) -> str:
+    context = retrieve_context(question)
+    answer = generate_response(question, context)
+    return {"answer": answer}
