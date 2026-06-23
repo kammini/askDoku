@@ -14,9 +14,14 @@ export default function Upload() {
   }
 
   return (
-    <form onSubmit={handleSubmit}>
-      <input type="file" name="file" />
-      <button type="submit">Upload</button>
-    </form>
+    <div className="h-screen flex flex-col gap-8 items-center justify-center">
+      <form onSubmit={handleSubmit} className="flex gap-6 w-1/2 ml-25">
+        <label className="w-60 h-10 border rounded-full flex items-center justify-center cursor-pointer">
+          <span>Choose file</span>
+          <input type="file" name="file" className="hidden" />
+        </label>
+        <button type="submit" className="bg-red-500 w-1/5 text-white rounded-full cursor-pointer">Upload</button>
+      </form>
+    </div>
   )
 }
