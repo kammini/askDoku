@@ -1,6 +1,5 @@
 def chunk_text(text: str, chunk_size: str = 500, overlap: int = 50):
     words = text.split()
-
     chunks = []
     start = 0
     while start < len(words):

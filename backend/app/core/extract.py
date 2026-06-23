@@ -1,4 +1,3 @@
-
 from pypdf import PdfReader
 import docx
 
