@@ -1,11 +1,16 @@
 from pypdf import PdfReader
 import docx
 
-def extract_document(filepath: str) -> str:
+def extract_document(filepath: str) -> list[dict]:
     if filepath.endswith(".pdf"):
         reader = PdfReader(filepath)
-        text = "\n".join(page.extract_text().replace("\xad", "") for page in reader.pages)
-        return text
+        return [
+            {
+                "page_number": i,
+                "content": page.extract_text().replace("\xad", "")
+            }
+            for i, page in enumerate(reader.pages, start=1)
+        ]
     
     elif filepath.endswith(".docx"):
         doc = docx.Document(filepath)
