@@ -18,5 +18,5 @@ def ingest_document(filepath: str, file_bytes: bytes):
     store_document(document_id, filename)
     pages = extract_document(filepath)
     chunks = chunk_text(pages, document_id)
-    embeddings = embed_document(chunk["content"] for chunk in chunks)
+    embeddings = embed_document([chunk["content"] for chunk in chunks])
     store_chunks(chunks, embeddings)
