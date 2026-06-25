@@ -1,12 +1,12 @@
 from pypdf import PdfReader
-from pypdfium2 import pdfium
+import pypdfium2
 import pytesseract
 import docx
 
 MIN_CHARS = 50
 
 def render_page_to_image(filepath: str, page_number: int):
-    pdf = pdfium.PdfDocument(filepath)
+    pdf = pypdfium2.PdfDocument(filepath)
     page = pdf[page_number]
     bitmap = page.render(scale=2.0)
     return bitmap.to_pil()
