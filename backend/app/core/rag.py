@@ -1,8 +1,8 @@
-from app.core.clients import gemini, deepseek
+from app.core.clients import deepseek
 from .embed import embed_document
 from .clients import supabase
 
-def generate_response(question: str, contexts: list[dict]) -> str:
+def generate_response(question: str, contexts: list[dict]):
     context_text = "\n\n".join(context["content"] for context in contexts)
     prompt = f"""
         Answer the question using only the context below. If the context doesn't contain enough information, say so.
