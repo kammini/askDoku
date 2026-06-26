@@ -1,0 +1,398 @@
+[
+  {
+    "id": "po_mitteilung_nr",
+    "question": "What is the FH-Mitteilung number for the 2021 Prüfungsordnung?",
+    "expected_answer": "Nr. 32 / 2021",
+    "source_file": "PO.pdf",
+    "status": "PASS",
+    "retrieved_chunks": [
+      {
+        "rank": 1,
+        "filename": "PO.pdf",
+        "page_number": 1,
+        "similarity": 0.7778,
+        "content_snippet": "FH-Mitteilungen Herausgeber: Der Rektor der FH Aachen | Alle Rechte vorbehalten. Wiedergabe oder Druck nur mit Angabe von Quelle und Verfasser. Wiedergabe von Auszügen nur mit Genehmigung der FH Aachen. | Redaktion: Dezernat Z, Silvia Crummenerl, T +49. 241. 6009 51134 Lesbare Fassungen dienen der b"
+      },
+      {
+        "rank": 2,
+        "filename": "PO.pdf",
+        "page_number": 4,
+        "similarity": 0.7505,
+        "content_snippet": "4 FH-MITTEILUNG NR. 32 / 2021 | 19. Mä Rz 2021 jahr mindestens vier Wahlmodule pro Schwerpunkt an geboten werden. (9) Im ersten und zweiten Semester müssen die Studieren den insgesamt zwei Module laut Studienverlaufsplan ( Anlage 1) aus dem Softskill Wahlkatalog (Anlage 3) aus wählen. (10) Im Falle "
+      },
+      {
+        "rank": 3,
+        "filename": "PO.pdf",
+        "page_number": 2,
+        "similarity": 0.7332,
+        "content_snippet": "2 FH-MITTEILUNG NR. 32 / 2021 | 19. Mä Rz 2021 Prüfungsordnung für die Bachelorstudiengänge „Informatik“ und „Informatik mit Praxissemester“ im Fachbereich Elektrotechnik und Informationstechnik an der Fachhochschule Aachen vom 5. Februar 2015 – FH-Mitteilung Nr. 11/2015 in der Fassung der Bekanntma"
+      },
+      {
+        "rank": 4,
+        "filename": "PO.pdf",
+        "page_number": 6,
+        "similarity": 0.7209,
+        "content_snippet": "6 FH-MITTEILUNG NR. 32 / 2021 | 19. Mä Rz 2021 § 12 | Bachelorarbeit und Kolloquium (1) Die Bachelorarbeit ist eine eigenständige Ausarbeitung mit einer experimentellen, entwerferischen oder einer anderen informationstechnischen Beschreibung und Erläu terung ihrer Lösung. (2) Der Umfang der Bachelor"
+      },
+      {
+        "rank": 5,
+        "filename": "PO.pdf",
+        "page_number": 8,
+        "similarity": 0.7065,
+        "content_snippet": "8 FH-MITTEILUNG NR. 32 / 2021 | 19. Mä Rz 2021 Anlage 2 Wahlkatalog Es handelt sich bei diesem Katalog um eine beispielhafte Aufzählung der angebotenen Veranstaltungen. Diese werden nicht in jedem Semester angeboten. Die aktuell angebotenen Wahlmodule werden rechtzeitig vor Semesterbeginn bekannt ge"
+      }
+    ]
+  },
+  {
+    "id": "po_module_number",
+    "question": "What is the module number for Höhere Mathematik 1 für Informatik?",
+    "expected_answer": "51101",
+    "source_file": "PO.pdf",
+    "status": "PASS",
+    "retrieved_chunks": [
+      {
+        "rank": 1,
+        "filename": "PO.pdf",
+        "page_number": 7,
+        "similarity": 0.7222,
+        "content_snippet": "PRüFUNGSORDNUNG | BAcHELORSTUDIENGäNGE INFORMATIK MIT UND OHNE PRAxISSEMESTER 7 (Nichtamtliche lesbare Fassung zur änderungsordnung vom 19.03.2021 | Studienbeginn ab WS 2021/22) Anlage 1 Studienverlaufspläne Kernstudium Nr. Module und Studienfächer Bezeichnung 1. 2. 3. Sem. LP V ü P V ü P V ü P SWS "
+      },
+      {
+        "rank": 2,
+        "filename": "PO.pdf",
+        "page_number": 8,
+        "similarity": 0.6861,
+        "content_snippet": "8 FH-MITTEILUNG NR. 32 / 2021 | 19. Mä Rz 2021 Anlage 2 Wahlkatalog Es handelt sich bei diesem Katalog um eine beispielhafte Aufzählung der angebotenen Veranstaltungen. Diese werden nicht in jedem Semester angeboten. Die aktuell angebotenen Wahlmodule werden rechtzeitig vor Semesterbeginn bekannt ge"
+      },
+      {
+        "rank": 3,
+        "filename": "PO.pdf",
+        "page_number": 3,
+        "similarity": 0.6611,
+        "content_snippet": "Informatik bzw. des Bachelorstudiengangs Informatik mit Praxissemester ergeben sich aus Anlage 1. (6) Lehrveranstaltungen bestehen in der Regel aus Vor lesung, übung und Praktikum (s. Anlage 1). Lehrveranstal tungen können auch in englischer Sprache angeboten werden. Praktika beinhalten eine Anwesen"
+      },
+      {
+        "rank": 4,
+        "filename": "PO.pdf",
+        "page_number": 1,
+        "similarity": 0.6485,
+        "content_snippet": "FH-Mitteilungen Herausgeber: Der Rektor der FH Aachen | Alle Rechte vorbehalten. Wiedergabe oder Druck nur mit Angabe von Quelle und Verfasser. Wiedergabe von Auszügen nur mit Genehmigung der FH Aachen. | Redaktion: Dezernat Z, Silvia Crummenerl, T +49. 241. 6009 51134 Lesbare Fassungen dienen der b"
+      },
+      {
+        "rank": 5,
+        "filename": "PO.pdf",
+        "page_number": 9,
+        "similarity": 0.6422,
+        "content_snippet": "PRüFUNGSORDNUNG | BAcHELORSTUDIENGäNGE INFORMATIK MIT UND OHNE PRAxISSEMESTER 9 (Nichtamtliche lesbare Fassung zur änderungsordnung vom 19.03.2021 | Studienbeginn ab WS 2021/22) Anlage 3 SoftskillWahlkatalog (jeweils 2 Leistungspunkte) ModulNr. Studienfach V Ü P 55671 Training allgemeiner Kompetenze"
+      }
+    ]
+  },
+  {
+    "id": "po_phone_number",
+    "question": "What is the phone number listed for the FH Aachen editorial contact?",
+    "expected_answer": "+49. 241. 6009 51134",
+    "source_file": "PO.pdf",
+    "status": "PASS",
+    "retrieved_chunks": [
+      {
+        "rank": 1,
+        "filename": "PO.pdf",
+        "page_number": 1,
+        "similarity": 0.6476,
+        "content_snippet": "FH-Mitteilungen Herausgeber: Der Rektor der FH Aachen | Alle Rechte vorbehalten. Wiedergabe oder Druck nur mit Angabe von Quelle und Verfasser. Wiedergabe von Auszügen nur mit Genehmigung der FH Aachen. | Redaktion: Dezernat Z, Silvia Crummenerl, T +49. 241. 6009 51134 Lesbare Fassungen dienen der b"
+      },
+      {
+        "rank": 2,
+        "filename": "PO.pdf",
+        "page_number": 2,
+        "similarity": 0.5968,
+        "content_snippet": "2 FH-MITTEILUNG NR. 32 / 2021 | 19. Mä Rz 2021 Prüfungsordnung für die Bachelorstudiengänge „Informatik“ und „Informatik mit Praxissemester“ im Fachbereich Elektrotechnik und Informationstechnik an der Fachhochschule Aachen vom 5. Februar 2015 – FH-Mitteilung Nr. 11/2015 in der Fassung der Bekanntma"
+      },
+      {
+        "rank": 3,
+        "filename": "PO.pdf",
+        "page_number": 6,
+        "similarity": 0.5939,
+        "content_snippet": "6 FH-MITTEILUNG NR. 32 / 2021 | 19. Mä Rz 2021 § 12 | Bachelorarbeit und Kolloquium (1) Die Bachelorarbeit ist eine eigenständige Ausarbeitung mit einer experimentellen, entwerferischen oder einer anderen informationstechnischen Beschreibung und Erläu terung ihrer Lösung. (2) Der Umfang der Bachelor"
+      },
+      {
+        "rank": 4,
+        "filename": "PO.pdf",
+        "page_number": 5,
+        "similarity": 0.5924,
+        "content_snippet": "PRüFUNGSORDNUNG | BAcHELORSTUDIENGäNGE INFORMATIK MIT UND OHNE PRAxISSEMESTER 5 (Nichtamtliche lesbare Fassung zur änderungsordnung vom 19.03.2021 | Studienbeginn ab WS 2021/22) reich absolvierten Module anerkannt und die Fehlversuche angerechnet. § 9 | Praxissemester (1) Entsprechend der zielsetzun"
+      },
+      {
+        "rank": 5,
+        "filename": "PO.pdf",
+        "page_number": 8,
+        "similarity": 0.5787,
+        "content_snippet": "8 FH-MITTEILUNG NR. 32 / 2021 | 19. Mä Rz 2021 Anlage 2 Wahlkatalog Es handelt sich bei diesem Katalog um eine beispielhafte Aufzählung der angebotenen Veranstaltungen. Diese werden nicht in jedem Semester angeboten. Die aktuell angebotenen Wahlmodule werden rechtzeitig vor Semesterbeginn bekannt ge"
+      }
+    ]
+  },
+  {
+    "id": "po_original_date",
+    "question": "What is the FH-Mitteilung number of the original 2015 Prüfungsordnung before the 2021 amendment?",
+    "expected_answer": "FH-Mitteilung Nr. 11/2015",
+    "source_file": "PO.pdf",
+    "status": "PASS",
+    "retrieved_chunks": [
+      {
+        "rank": 1,
+        "filename": "PO.pdf",
+        "page_number": 1,
+        "similarity": 0.7669,
+        "content_snippet": "FH-Mitteilungen Herausgeber: Der Rektor der FH Aachen | Alle Rechte vorbehalten. Wiedergabe oder Druck nur mit Angabe von Quelle und Verfasser. Wiedergabe von Auszügen nur mit Genehmigung der FH Aachen. | Redaktion: Dezernat Z, Silvia Crummenerl, T +49. 241. 6009 51134 Lesbare Fassungen dienen der b"
+      },
+      {
+        "rank": 2,
+        "filename": "PO.pdf",
+        "page_number": 2,
+        "similarity": 0.7193,
+        "content_snippet": "2 FH-MITTEILUNG NR. 32 / 2021 | 19. Mä Rz 2021 Prüfungsordnung für die Bachelorstudiengänge „Informatik“ und „Informatik mit Praxissemester“ im Fachbereich Elektrotechnik und Informationstechnik an der Fachhochschule Aachen vom 5. Februar 2015 – FH-Mitteilung Nr. 11/2015 in der Fassung der Bekanntma"
+      },
+      {
+        "rank": 3,
+        "filename": "PO.pdf",
+        "page_number": 4,
+        "similarity": 0.7153,
+        "content_snippet": "4 FH-MITTEILUNG NR. 32 / 2021 | 19. Mä Rz 2021 jahr mindestens vier Wahlmodule pro Schwerpunkt an geboten werden. (9) Im ersten und zweiten Semester müssen die Studieren den insgesamt zwei Module laut Studienverlaufsplan ( Anlage 1) aus dem Softskill Wahlkatalog (Anlage 3) aus wählen. (10) Im Falle "
+      },
+      {
+        "rank": 4,
+        "filename": "PO.pdf",
+        "page_number": 6,
+        "similarity": 0.695,
+        "content_snippet": "6 FH-MITTEILUNG NR. 32 / 2021 | 19. Mä Rz 2021 § 12 | Bachelorarbeit und Kolloquium (1) Die Bachelorarbeit ist eine eigenständige Ausarbeitung mit einer experimentellen, entwerferischen oder einer anderen informationstechnischen Beschreibung und Erläu terung ihrer Lösung. (2) Der Umfang der Bachelor"
+      },
+      {
+        "rank": 5,
+        "filename": "PO.pdf",
+        "page_number": 7,
+        "similarity": 0.666,
+        "content_snippet": "PRüFUNGSORDNUNG | BAcHELORSTUDIENGäNGE INFORMATIK MIT UND OHNE PRAxISSEMESTER 7 (Nichtamtliche lesbare Fassung zur änderungsordnung vom 19.03.2021 | Studienbeginn ab WS 2021/22) Anlage 1 Studienverlaufspläne Kernstudium Nr. Module und Studienfächer Bezeichnung 1. 2. 3. Sem. LP V ü P V ü P V ü P SWS "
+      }
+    ]
+  },
+  {
+    "id": "p4_overdraft_amount",
+    "question": "What was the exact amount of the Überziehungskredit repaid in Maßnahme 1?",
+    "expected_answer": "1.303,73 TEUR",
+    "source_file": "p4_massnahmen_ziele.md",
+    "status": "FAIL",
+    "retrieved_chunks": [
+      {
+        "rank": 1,
+        "filename": "PO.pdf",
+        "page_number": 5,
+        "similarity": 0.5431,
+        "content_snippet": "der Studierenden im Ausland gilt § 9 Absatz 6 entsprechend. (5) Die Teilnahme am Studiensemester im Ausland wird durch die betreuende Person anerkannt, wenn der oder die Studierende im Ausland erbrachte Leistungen im Umfang von 24 Leistungspunkten nachweist. Davon müssen mindestens 20 Leistungspunkt"
+      },
+      {
+        "rank": 2,
+        "filename": "PO.pdf",
+        "page_number": 7,
+        "similarity": 0.5409,
+        "content_snippet": "PRüFUNGSORDNUNG | BAcHELORSTUDIENGäNGE INFORMATIK MIT UND OHNE PRAxISSEMESTER 7 (Nichtamtliche lesbare Fassung zur änderungsordnung vom 19.03.2021 | Studienbeginn ab WS 2021/22) Anlage 1 Studienverlaufspläne Kernstudium Nr. Module und Studienfächer Bezeichnung 1. 2. 3. Sem. LP V ü P V ü P V ü P SWS "
+      },
+      {
+        "rank": 3,
+        "filename": "PO.pdf",
+        "page_number": 5,
+        "similarity": 0.5341,
+        "content_snippet": "PRüFUNGSORDNUNG | BAcHELORSTUDIENGäNGE INFORMATIK MIT UND OHNE PRAxISSEMESTER 5 (Nichtamtliche lesbare Fassung zur änderungsordnung vom 19.03.2021 | Studienbeginn ab WS 2021/22) reich absolvierten Module anerkannt und die Fehlversuche angerechnet. § 9 | Praxissemester (1) Entsprechend der zielsetzun"
+      },
+      {
+        "rank": 4,
+        "filename": "PO.pdf",
+        "page_number": 4,
+        "similarity": 0.532,
+        "content_snippet": "4 FH-MITTEILUNG NR. 32 / 2021 | 19. Mä Rz 2021 jahr mindestens vier Wahlmodule pro Schwerpunkt an geboten werden. (9) Im ersten und zweiten Semester müssen die Studieren den insgesamt zwei Module laut Studienverlaufsplan ( Anlage 1) aus dem Softskill Wahlkatalog (Anlage 3) aus wählen. (10) Im Falle "
+      },
+      {
+        "rank": 5,
+        "filename": "PO.pdf",
+        "page_number": 4,
+        "similarity": 0.5302,
+        "content_snippet": "möglich. § 7 | Zulassung zu Prüfungen und Praktika (1) zu den Prüfungen des dritten Regelsemesters kann zu gelassen werden, wer mindestens 29 Leistungspunkte aus den Prüfungen der ersten beiden Regelsemester erworben hat. (2) zur zulassung zu Prüfungen des vierten und fünften Regelsemesters sind 50 "
+      }
+    ]
+  },
+  {
+    "id": "p4_equity_end",
+    "question": "What was the Eigenkapital at the end of Periode 4?",
+    "expected_answer": "-692,94 TEUR",
+    "source_file": "p4_massnahmen_ziele.md",
+    "status": "FAIL",
+    "retrieved_chunks": [
+      {
+        "rank": 1,
+        "filename": "PO.pdf",
+        "page_number": 4,
+        "similarity": 0.5556,
+        "content_snippet": "4 FH-MITTEILUNG NR. 32 / 2021 | 19. Mä Rz 2021 jahr mindestens vier Wahlmodule pro Schwerpunkt an geboten werden. (9) Im ersten und zweiten Semester müssen die Studieren den insgesamt zwei Module laut Studienverlaufsplan ( Anlage 1) aus dem Softskill Wahlkatalog (Anlage 3) aus wählen. (10) Im Falle "
+      },
+      {
+        "rank": 2,
+        "filename": "PO.pdf",
+        "page_number": 7,
+        "similarity": 0.5409,
+        "content_snippet": "PRüFUNGSORDNUNG | BAcHELORSTUDIENGäNGE INFORMATIK MIT UND OHNE PRAxISSEMESTER 7 (Nichtamtliche lesbare Fassung zur änderungsordnung vom 19.03.2021 | Studienbeginn ab WS 2021/22) Anlage 1 Studienverlaufspläne Kernstudium Nr. Module und Studienfächer Bezeichnung 1. 2. 3. Sem. LP V ü P V ü P V ü P SWS "
+      },
+      {
+        "rank": 3,
+        "filename": "PO.pdf",
+        "page_number": 8,
+        "similarity": 0.5148,
+        "content_snippet": "8 FH-MITTEILUNG NR. 32 / 2021 | 19. Mä Rz 2021 Anlage 2 Wahlkatalog Es handelt sich bei diesem Katalog um eine beispielhafte Aufzählung der angebotenen Veranstaltungen. Diese werden nicht in jedem Semester angeboten. Die aktuell angebotenen Wahlmodule werden rechtzeitig vor Semesterbeginn bekannt ge"
+      },
+      {
+        "rank": 4,
+        "filename": "PO.pdf",
+        "page_number": 3,
+        "similarity": 0.5133,
+        "content_snippet": "Informatik bzw. des Bachelorstudiengangs Informatik mit Praxissemester ergeben sich aus Anlage 1. (6) Lehrveranstaltungen bestehen in der Regel aus Vor lesung, übung und Praktikum (s. Anlage 1). Lehrveranstal tungen können auch in englischer Sprache angeboten werden. Praktika beinhalten eine Anwesen"
+      },
+      {
+        "rank": 5,
+        "filename": "PO.pdf",
+        "page_number": 4,
+        "similarity": 0.5125,
+        "content_snippet": "möglich. § 7 | Zulassung zu Prüfungen und Praktika (1) zu den Prüfungen des dritten Regelsemesters kann zu gelassen werden, wer mindestens 29 Leistungspunkte aus den Prüfungen der ersten beiden Regelsemester erworben hat. (2) zur zulassung zu Prüfungen des vierten und fünften Regelsemesters sind 50 "
+      }
+    ]
+  },
+  {
+    "id": "p4_loss_carryforward",
+    "question": "What was the Verlustvortrag at the end of Periode 4?",
+    "expected_answer": "-3.242,94 TEUR",
+    "source_file": "p4_massnahmen_ziele.md",
+    "status": "FAIL",
+    "retrieved_chunks": [
+      {
+        "rank": 1,
+        "filename": "PO.pdf",
+        "page_number": 4,
+        "similarity": 0.5748,
+        "content_snippet": "4 FH-MITTEILUNG NR. 32 / 2021 | 19. Mä Rz 2021 jahr mindestens vier Wahlmodule pro Schwerpunkt an geboten werden. (9) Im ersten und zweiten Semester müssen die Studieren den insgesamt zwei Module laut Studienverlaufsplan ( Anlage 1) aus dem Softskill Wahlkatalog (Anlage 3) aus wählen. (10) Im Falle "
+      },
+      {
+        "rank": 2,
+        "filename": "PO.pdf",
+        "page_number": 3,
+        "similarity": 0.553,
+        "content_snippet": "Informatik bzw. des Bachelorstudiengangs Informatik mit Praxissemester ergeben sich aus Anlage 1. (6) Lehrveranstaltungen bestehen in der Regel aus Vor lesung, übung und Praktikum (s. Anlage 1). Lehrveranstal tungen können auch in englischer Sprache angeboten werden. Praktika beinhalten eine Anwesen"
+      },
+      {
+        "rank": 3,
+        "filename": "PO.pdf",
+        "page_number": 7,
+        "similarity": 0.5501,
+        "content_snippet": "PRüFUNGSORDNUNG | BAcHELORSTUDIENGäNGE INFORMATIK MIT UND OHNE PRAxISSEMESTER 7 (Nichtamtliche lesbare Fassung zur änderungsordnung vom 19.03.2021 | Studienbeginn ab WS 2021/22) Anlage 1 Studienverlaufspläne Kernstudium Nr. Module und Studienfächer Bezeichnung 1. 2. 3. Sem. LP V ü P V ü P V ü P SWS "
+      },
+      {
+        "rank": 4,
+        "filename": "PO.pdf",
+        "page_number": 5,
+        "similarity": 0.5436,
+        "content_snippet": "der Studierenden im Ausland gilt § 9 Absatz 6 entsprechend. (5) Die Teilnahme am Studiensemester im Ausland wird durch die betreuende Person anerkannt, wenn der oder die Studierende im Ausland erbrachte Leistungen im Umfang von 24 Leistungspunkten nachweist. Davon müssen mindestens 20 Leistungspunkt"
+      },
+      {
+        "rank": 5,
+        "filename": "PO.pdf",
+        "page_number": 4,
+        "similarity": 0.5308,
+        "content_snippet": "möglich. § 7 | Zulassung zu Prüfungen und Praktika (1) zu den Prüfungen des dritten Regelsemesters kann zu gelassen werden, wer mindestens 29 Leistungspunkte aus den Prüfungen der ersten beiden Regelsemester erworben hat. (2) zur zulassung zu Prüfungen des vierten und fünften Regelsemesters sind 50 "
+      }
+    ]
+  },
+  {
+    "id": "cover_letter_address",
+    "question": "What street address is listed in the cover letter to AISLER?",
+    "expected_answer": "Hein-Janssen-Str 5",
+    "source_file": "Anschreiben_Incoretex.docx",
+    "status": "FAIL",
+    "retrieved_chunks": [
+      {
+        "rank": 1,
+        "filename": "PO.pdf",
+        "page_number": 5,
+        "similarity": 0.4962,
+        "content_snippet": "PRüFUNGSORDNUNG | BAcHELORSTUDIENGäNGE INFORMATIK MIT UND OHNE PRAxISSEMESTER 5 (Nichtamtliche lesbare Fassung zur änderungsordnung vom 19.03.2021 | Studienbeginn ab WS 2021/22) reich absolvierten Module anerkannt und die Fehlversuche angerechnet. § 9 | Praxissemester (1) Entsprechend der zielsetzun"
+      },
+      {
+        "rank": 2,
+        "filename": "PO.pdf",
+        "page_number": 4,
+        "similarity": 0.49,
+        "content_snippet": "4 FH-MITTEILUNG NR. 32 / 2021 | 19. Mä Rz 2021 jahr mindestens vier Wahlmodule pro Schwerpunkt an geboten werden. (9) Im ersten und zweiten Semester müssen die Studieren den insgesamt zwei Module laut Studienverlaufsplan ( Anlage 1) aus dem Softskill Wahlkatalog (Anlage 3) aus wählen. (10) Im Falle "
+      },
+      {
+        "rank": 3,
+        "filename": "PO.pdf",
+        "page_number": 2,
+        "similarity": 0.4692,
+        "content_snippet": "2 FH-MITTEILUNG NR. 32 / 2021 | 19. Mä Rz 2021 Prüfungsordnung für die Bachelorstudiengänge „Informatik“ und „Informatik mit Praxissemester“ im Fachbereich Elektrotechnik und Informationstechnik an der Fachhochschule Aachen vom 5. Februar 2015 – FH-Mitteilung Nr. 11/2015 in der Fassung der Bekanntma"
+      },
+      {
+        "rank": 4,
+        "filename": "PO.pdf",
+        "page_number": 8,
+        "similarity": 0.4686,
+        "content_snippet": "8 FH-MITTEILUNG NR. 32 / 2021 | 19. Mä Rz 2021 Anlage 2 Wahlkatalog Es handelt sich bei diesem Katalog um eine beispielhafte Aufzählung der angebotenen Veranstaltungen. Diese werden nicht in jedem Semester angeboten. Die aktuell angebotenen Wahlmodule werden rechtzeitig vor Semesterbeginn bekannt ge"
+      },
+      {
+        "rank": 5,
+        "filename": "PO.pdf",
+        "page_number": 5,
+        "similarity": 0.4657,
+        "content_snippet": "der Studierenden im Ausland gilt § 9 Absatz 6 entsprechend. (5) Die Teilnahme am Studiensemester im Ausland wird durch die betreuende Person anerkannt, wenn der oder die Studierende im Ausland erbrachte Leistungen im Umfang von 24 Leistungspunkten nachweist. Davon müssen mindestens 20 Leistungspunkt"
+      }
+    ]
+  },
+  {
+    "id": "cover_letter_start_date",
+    "question": "When is the applicant available to start work at AISLER?",
+    "expected_answer": "August 1st",
+    "source_file": "Anschreiben_Incoretex.docx",
+    "status": "FAIL",
+    "retrieved_chunks": [
+      {
+        "rank": 1,
+        "filename": "PO.pdf",
+        "page_number": 5,
+        "similarity": 0.4915,
+        "content_snippet": "PRüFUNGSORDNUNG | BAcHELORSTUDIENGäNGE INFORMATIK MIT UND OHNE PRAxISSEMESTER 5 (Nichtamtliche lesbare Fassung zur änderungsordnung vom 19.03.2021 | Studienbeginn ab WS 2021/22) reich absolvierten Module anerkannt und die Fehlversuche angerechnet. § 9 | Praxissemester (1) Entsprechend der zielsetzun"
+      },
+      {
+        "rank": 2,
+        "filename": "PO.pdf",
+        "page_number": 6,
+        "similarity": 0.483,
+        "content_snippet": "6 FH-MITTEILUNG NR. 32 / 2021 | 19. Mä Rz 2021 § 12 | Bachelorarbeit und Kolloquium (1) Die Bachelorarbeit ist eine eigenständige Ausarbeitung mit einer experimentellen, entwerferischen oder einer anderen informationstechnischen Beschreibung und Erläu terung ihrer Lösung. (2) Der Umfang der Bachelor"
+      },
+      {
+        "rank": 3,
+        "filename": "PO.pdf",
+        "page_number": 3,
+        "similarity": 0.4793,
+        "content_snippet": "PRüFUNGSORDNUNG | BAcHELORSTUDIENGäNGE INFORMATIK MIT UND OHNE PRAxISSEMESTER 3 (Nichtamtliche lesbare Fassung zur änderungsordnung vom 19.03.2021 | Studienbeginn ab WS 2021/22) (2) ziel des Studiums ist ein erster berufsqualifizierender Abschluss in Informatik. Im Detail werden die Studie renden be"
+      },
+      {
+        "rank": 4,
+        "filename": "PO.pdf",
+        "page_number": 4,
+        "similarity": 0.4782,
+        "content_snippet": "4 FH-MITTEILUNG NR. 32 / 2021 | 19. Mä Rz 2021 jahr mindestens vier Wahlmodule pro Schwerpunkt an geboten werden. (9) Im ersten und zweiten Semester müssen die Studieren den insgesamt zwei Module laut Studienverlaufsplan ( Anlage 1) aus dem Softskill Wahlkatalog (Anlage 3) aus wählen. (10) Im Falle "
+      },
+      {
+        "rank": 5,
+        "filename": "PO.pdf",
+        "page_number": 4,
+        "similarity": 0.4698,
+        "content_snippet": "möglich. § 7 | Zulassung zu Prüfungen und Praktika (1) zu den Prüfungen des dritten Regelsemesters kann zu gelassen werden, wer mindestens 29 Leistungspunkte aus den Prüfungen der ersten beiden Regelsemester erworben hat. (2) zur zulassung zu Prüfungen des vierten und fünften Regelsemesters sind 50 "
+      }
+    ]
+  }
+]
