@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import Markdown from "react-markdown";
 
 type Source = {
@@ -14,6 +14,11 @@ export default function Ask() {
     const [sources, setSources] = useState<Source[]>([]);
     const [showSources, setShowSources] = useState<boolean>(false);
     const [loading, setLoading] = useState<boolean>(false);
+    const [sessionId, setSessionId] = useState<string>();
+
+    useEffect(() => {
+        setSessionId(crypto.randomUUID());
+    }, [])
 
     const handleSubmit = async (event: React.FormEvent<HTMLFormElement>) => {
         event.preventDefault();
@@ -23,8 +28,15 @@ export default function Ask() {
         setLoading(true);
         const formdata = new FormData(event.currentTarget);
         const question = formdata.get("text") as string;
-        const res = await fetch(`http://localhost:8000/ask?question=${encodeURIComponent(question)}`, {
+        const res = await fetch(`http://localhost:8000/ask`, {
             method: "POST",
+            headers: {
+                'Content-Type': 'application/json'
+            },
+            body: JSON.stringify({
+                sessionId: sessionId,
+                question: question
+            })
         });
         const utf8decoder = new TextDecoder();
         const reader = res.body?.getReader();
