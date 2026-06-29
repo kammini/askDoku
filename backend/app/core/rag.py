@@ -2,6 +2,32 @@ from app.core.clients import deepseek, GENERATION_MODEL
 from .embed import embed_document
 from .clients import supabase
 
+def rewrite_query(history_convo: list[dict]):
+	prompt = f"""
+		You are a query rewriter for a RAG system.
+
+		Given a conversation history, rewrite the last user message into a self-contained search query that captures the full intent without relying on prior context.
+
+		Rules:
+		- If the message is already standalone and specific, return it unchanged
+		- Resolve pronouns and references ("it", "that", "the previous one") using earlier turns
+		- Expand topic fragments into complete, searchable questions
+		- Output only the rewritten query — no explanation, no quotes, no punctuation changes
+	"""
+
+	res = deepseek.messages.create(
+		model=GENERATION_MODEL,
+		max_tokens=200,
+		thinking={"type": "disabled"},
+		system=prompt,
+		messages= history_convo[-4:]
+	)
+	
+	for content in res.content:
+		if content.type == 'text':
+			return content.text
+
+
 def generate_response(question: str, contexts: list[dict], history_convo: list[dict]):
 	context_text = "\n\n".join(context["content"] for context in contexts)
 	prompt = f"""
