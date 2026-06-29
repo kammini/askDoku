@@ -41,10 +41,10 @@ def status(document_id: str):
 		raise HTTPException(status_code=404, detail="Document not found")
 	return {"status": status}
 
-def stream_story(question: str, contexts: list[dict], convo_list: list[dict]):
+def stream_story(contexts: list[dict], convo_list: list[dict]):
 	for context in contexts:
 		yield "data: " + json.dumps(context) + "\n\n"
-	answers = generate_response(question, contexts, convo_list)
+	answers = generate_response(contexts, convo_list)
 	full_answer = ""
 	for answer in answers:
 		yield "data: " + answer.replace("\n", "\\n") + "\n\n"
@@ -59,6 +59,6 @@ async def ask(data_convo: AskRequest):
 	query = rewrite_query(convo[data_convo.sessionId])
 	contexts = retrieve_context(query)
 	return StreamingResponse(
-		stream_story(data_convo.question, contexts, convo[data_convo.sessionId]),
+		stream_story(contexts, convo[data_convo.sessionId]),
 		media_type="text/event-stream"
 	)
