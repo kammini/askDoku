@@ -1,9 +1,20 @@
 """
 Baseline test: exact-match questions against vector-only retrieval.
 
-Expectation: all (or most) of these should FAIL — i.e., the expected answer
-does not appear in the top-5 retrieved chunks. That confirms vector search
-alone cannot handle exact identifier lookups, motivating hybrid search (M4).
+Corpus (must be ingested first): the-pragmatic-programmer.pdf,
+Working-Effectively-with-Legacy-Code.pdf, turn-left-at-orion.pdf.
+
+Each case asks for an exact identifier (ISBN, phone number, postal address,
+precise figure) that lives in a single localized chunk. A case FAILS when the
+expected string does not appear in the top-5 vector-retrieved chunks.
+
+This is a MIXED baseline, not an all-fail one: some identifiers sit in chunks
+that happen to be semantically findable and will PASS. The cases that FAIL are
+the proof that motivates hybrid search (M4) — notably the Legacy Code
+front-matter lookups, where the query retrieves The Pragmatic Programmer's
+near-identical boilerplate instead of the correct document (see
+`correct_source_retrieved` in the output). A keyword/BM25 signal on the exact
+identifier should fix those without regressing the cases that already pass.
 
 Run from the backend/ directory:
     python -m test_files.test_exact_match_retrieval
@@ -45,6 +56,9 @@ def run():
 
         chunks = retrieve_context(question)
         found = answer_found(expected, chunks)
+        correct_source_retrieved = any(
+            c.get("filename") == case["source_file"] for c in chunks
+        )
 
         status = "PASS" if found else "FAIL"
         if found:
@@ -55,6 +69,7 @@ def run():
         print(f"\n[{status}] {case['id']}")
         print(f"  Q: {question}")
         print(f"  Expected: {expected}")
+        print(f"  Source doc retrieved at all? {'yes' if correct_source_retrieved else 'NO — wrong document'}")
         print(f"  Top-5 retrieved chunks:")
         for i, chunk in enumerate(chunks, 1):
             snippet = chunk["content"].replace("\n", " ")[:120]
@@ -67,6 +82,7 @@ def run():
             "expected_answer": expected,
             "source_file": case["source_file"],
             "status": status,
+            "correct_source_retrieved": correct_source_retrieved,
             "retrieved_chunks": [
                 {
                     "rank": i + 1,
@@ -79,9 +95,15 @@ def run():
             ],
         })
 
+    wrong_doc = sum(1 for r in results if not r["correct_source_retrieved"])
+
     print("\n" + "=" * 70)
     print(f"Results: {passed} passed / {failed} failed out of {len(fixture)} cases")
-    print(f"(FAIL = vector search missed the exact answer — expected for this baseline)")
+    print(f"FAIL = vector search missed the exact answer in the top-5 chunks.")
+    print(f"{wrong_doc}/{len(fixture)} cases never even retrieved the correct source document")
+    print(f"(the exact-identifier query matched another document's boilerplate instead).")
+    print(f"Hybrid search (M4) should turn the {failed} FAIL case(s) into PASS without")
+    print(f"regressing the {passed} that already pass.")
     print("=" * 70)
 
     OUTPUT_PATH.write_text(json.dumps(results, indent=2, ensure_ascii=False))

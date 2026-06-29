@@ -1,65 +1,86 @@
 [
   {
-    "id": "po_mitteilung_nr",
-    "question": "What is the FH-Mitteilung number for the 2021 Prüfungsordnung?",
-    "expected_answer": "Nr. 32 / 2021",
-    "source_file": "PO.pdf",
-    "rationale": "Exact publication ID — appears on the header of every page but has no semantic neighbours that a vector query would naturally retrieve."
+    "id": "pragprog_isbn",
+    "question": "What is the ISBN of The Pragmatic Programmer?",
+    "expected_answer": "0-201-61622-X",
+    "source_file": "the-pragmatic-programmer.pdf",
+    "rationale": "Opaque identifier on a single copyright page. A semantic query about 'The Pragmatic Programmer ISBN' has no embedding neighbours pointing at the digit string, so vector search rarely surfaces the one chunk that contains it."
   },
   {
-    "id": "po_module_number",
-    "question": "What is the module number for Höhere Mathematik 1 für Informatik?",
-    "expected_answer": "51101",
-    "source_file": "PO.pdf",
-    "rationale": "5-digit opaque code with no semantic meaning; embeddings cannot infer '51101' from a math-related query."
+    "id": "pragprog_publisher_phone",
+    "question": "What phone number does Addison Wesley Longman list for AWL Direct Sales in The Pragmatic Programmer?",
+    "expected_answer": "(781) 944-3700",
+    "source_file": "the-pragmatic-programmer.pdf",
+    "rationale": "A phone number token has no semantic similarity to questions about sales or the publisher; it lives in one front-matter chunk that is semantically distant from the book's technical content."
   },
   {
-    "id": "po_phone_number",
-    "question": "What is the phone number listed for the FH Aachen editorial contact?",
-    "expected_answer": "+49. 241. 6009 51134",
-    "source_file": "PO.pdf",
-    "rationale": "Phone number token has no semantic similarity to common questions about university contacts."
+    "id": "pragprog_boxer_page",
+    "question": "Which song's lyrics are quoted on page 157 of The Pragmatic Programmer?",
+    "expected_answer": "The Boxer",
+    "source_file": "the-pragmatic-programmer.pdf",
+    "rationale": "The fact lives in a one-line permissions notice on the copyright page, far from any chapter a query about song lyrics would semantically match."
   },
   {
-    "id": "po_original_date",
-    "question": "What is the FH-Mitteilung number of the original 2015 Prüfungsordnung before the 2021 amendment?",
-    "expected_answer": "FH-Mitteilung Nr. 11/2015",
-    "source_file": "PO.pdf",
-    "rationale": "Exact document ID embedded in a long reference clause; semantically distant from most study-regulation questions."
+    "id": "legacy_isbn",
+    "question": "What is the ISBN of Working Effectively with Legacy Code?",
+    "expected_answer": "0-13-117705-2",
+    "source_file": "Working-Effectively-with-Legacy-Code.pdf",
+    "rationale": "Exact identifier with no semantic meaning; embeddings cannot infer the digit string from a title-based query."
   },
   {
-    "id": "p4_overdraft_amount",
-    "question": "What was the exact amount of the Überziehungskredit repaid in Maßnahme 1?",
-    "expected_answer": "1.303,73 TEUR",
-    "source_file": "p4_massnahmen_ziele.md",
-    "rationale": "Precise financial figure; a query about 'overdraft repayment' may retrieve chunks about financial measures in general rather than the exact number."
+    "id": "legacy_corporate_sales_phone",
+    "question": "What is the U.S. Corporate and Government Sales phone number in Working Effectively with Legacy Code?",
+    "expected_answer": "1-800-382-3419",
+    "source_file": "Working-Effectively-with-Legacy-Code.pdf",
+    "rationale": "Toll-free number sits in a boilerplate sales notice that shares no vocabulary with the refactoring questions this book would normally be queried about."
   },
   {
-    "id": "p4_equity_end",
-    "question": "What was the Eigenkapital at the end of Periode 4?",
-    "expected_answer": "-692,94 TEUR",
-    "source_file": "p4_massnahmen_ziele.md",
-    "rationale": "Exact negative equity value; vector search on 'Eigenkapital P4' may surface many financial discussion chunks without returning the one containing -692,94."
+    "id": "legacy_publisher_address",
+    "question": "In which city is the Prentice Hall office located in Working Effectively with Legacy Code?",
+    "expected_answer": "Upper Saddle River, NJ 07458",
+    "source_file": "Working-Effectively-with-Legacy-Code.pdf",
+    "rationale": "Specific postal address on the title page; a vector query about the publisher returns general front-matter without surfacing the exact location string."
   },
   {
-    "id": "p4_loss_carryforward",
-    "question": "What was the Verlustvortrag at the end of Periode 4?",
-    "expected_answer": "-3.242,94 TEUR",
-    "source_file": "p4_massnahmen_ziele.md",
-    "rationale": "Exact accumulated loss figure that differs from the period loss; conflation likely with semantic search."
+    "id": "orion_isbn",
+    "question": "What is the ISBN of the fourth edition of Turn Left at Orion?",
+    "expected_answer": "978-0-521-15397-3",
+    "source_file": "turn-left-at-orion.pdf",
+    "rationale": "13-digit identifier on the imprint page; no semantic anchor for a vector query to retrieve it."
   },
   {
-    "id": "oos_p2_deposit_calculate_result",
-    "question": "What is the result of calculate() for a Payment of 1000€ with incomingInterest = 0.05?",
-    "expected_answer": "950€",
-    "source_file": "OOS_Praktikum_P2.pdf",
-    "rationale": "Exact numerical result from a worked example; a semantic query about 'calculate payment interest' may retrieve surrounding explanatory text without surfacing the concrete value 950."
+    "id": "orion_first_edition_year",
+    "question": "In what year was the first edition of Turn Left at Orion published?",
+    "expected_answer": "First edition published 1989",
+    "source_file": "turn-left-at-orion.pdf",
+    "rationale": "Publication-history line buried among four edition dates; a query about the book's age is unlikely to retrieve the precise '1989' chunk over the more prominent fourth-edition text."
   },
   {
-    "id": "oos_p2_withdrawal_calculate_result",
-    "question": "What is the result of calculate() for a Payment of -1000€ with outgoingInterest = 0.1?",
-    "expected_answer": "-1100€",
-    "source_file": "OOS_Praktikum_P2.pdf",
-    "rationale": "Exact negative numeric result from a withdrawal example; vector search on 'outgoing interest withdrawal' may return general descriptions of the calculate() semantics rather than the concrete figure -1100."
+    "id": "orion_vatican_telescope_size",
+    "question": "What is the mirror diameter of the Vatican Advanced Technology Telescope on Mt. Graham described in Turn Left at Orion?",
+    "expected_answer": "1.8-meter",
+    "source_file": "turn-left-at-orion.pdf",
+    "rationale": "Exact figure inside a narrative aside in the introduction; a semantic query about telescope sizes may surface the book's many general observing chunks instead of this one number."
+  },
+  {
+    "id": "orion_orion_nebula_distance",
+    "question": "How many light years away is the Orion Nebula according to Turn Left at Orion?",
+    "expected_answer": "1,350 light years",
+    "source_file": "turn-left-at-orion.pdf",
+    "rationale": "Precise distance figure; vector search on 'Orion Nebula distance' tends to retrieve descriptive observing text rather than the chunk holding the exact 1,350 value."
+  },
+  {
+    "id": "stellen_contact_email",
+    "question": "What email address should applicants use to contact the recruiter in the CeiliX Stellenanzeige?",
+    "expected_answer": "rheitz@ceilix.com",
+    "source_file": "Stellenanzeige_15597_1.pdf",
+    "rationale": "Opaque email token with no semantic neighbours; a query about how to apply rarely retrieves the exact address, which sits in a single chunk at the end of the posting."
+  },
+  {
+    "id": "stellen_contact_name",
+    "question": "Who is the contact person for the CeiliX full-stack working-student position?",
+    "expected_answer": "Robin Heitz",
+    "source_file": "Stellenanzeige_15597_1.pdf",
+    "rationale": "Proper name appears once in the closing signature block; a semantic query about the role or company is unlikely to surface the exact name over the job-description chunks."
   }
 ]
