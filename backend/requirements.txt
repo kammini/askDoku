@@ -7,3 +7,5 @@ google-genai
 supabase
 pypdf
 python-docx
+pypdfium2
+pytesseract
