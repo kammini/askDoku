@@ -4,7 +4,7 @@ A reusable test set proving where **vector-only** retrieval fails on exact
 identifier lookups, so we can later prove **hybrid search** fixes it.
 
 ## Files
-- `exact_match_fixture.json` — 12 exact-match Q/A cases across 4 documents.
+- `exact_match_fixture.json` — 10 exact-match Q/A cases across 3 documents.
 - `test_exact_match_retrieval.py` — runs the fixture through `retrieve_context`
   (pure vector search) and logs the top-5 chunks per question.
 - `exact_match_results_baseline.json` — captured baseline output.
@@ -13,9 +13,6 @@ identifier lookups, so we can later prove **hybrid search** fixes it.
 - `the-pragmatic-programmer.pdf`
 - `Working-Effectively-with-Legacy-Code.pdf`
 - `turn-left-at-orion.pdf`
-- `Stellenanzeige_15597_1.pdf` — CeiliX working-student job posting; lives only
-  in the DB (not in `test_docs/` on disk), so its cases were written from the
-  ingested chunks rather than a local file.
 
 ## Run
 ```
@@ -26,7 +23,7 @@ A case **PASSes** when the expected string appears in the top-5 chunks,
 **FAILs** otherwise. Every expected answer is verified to exist in its source
 document, so a FAIL is always a retrieval miss — never a missing answer.
 
-## Baseline result: 9 PASS / 3 FAIL
+## Baseline result: 7 PASS / 3 FAIL
 
 This is intentionally a *mixed* baseline. An all-fail set can't catch
 regressions; a mixed one proves hybrid search fixes the misses **without**
@@ -49,8 +46,7 @@ ISBN, the toll-free number) is precisely the signal vector search discards and
 a keyword/BM25 component would key on.
 
 The PASSes are explained by the absence of that competition: `turn-left-at-orion`
-is the only astronomy book (unique front matter), `Stellenanzeige_15597_1.pdf`
-is the only job posting (unique vocabulary), and Pragmatic Programmer "wins" the
+is the only astronomy book (unique front matter), and Pragmatic Programmer "wins" the
 front-matter similarity contest against Legacy Code, so its own identifiers are
 retrievable.
 

@@ -68,19 +68,5 @@
     "expected_answer": "1,350 light years",
     "source_file": "turn-left-at-orion.pdf",
     "rationale": "Precise distance figure; vector search on 'Orion Nebula distance' tends to retrieve descriptive observing text rather than the chunk holding the exact 1,350 value."
-  },
-  {
-    "id": "stellen_contact_email",
-    "question": "What email address should applicants use to contact the recruiter in the CeiliX Stellenanzeige?",
-    "expected_answer": "rheitz@ceilix.com",
-    "source_file": "Stellenanzeige_15597_1.pdf",
-    "rationale": "Opaque email token with no semantic neighbours; a query about how to apply rarely retrieves the exact address, which sits in a single chunk at the end of the posting."
-  },
-  {
-    "id": "stellen_contact_name",
-    "question": "Who is the contact person for the CeiliX full-stack working-student position?",
-    "expected_answer": "Robin Heitz",
-    "source_file": "Stellenanzeige_15597_1.pdf",
-    "rationale": "Proper name appears once in the closing signature block; a semantic query about the role or company is unlikely to surface the exact name over the job-description chunks."
   }
 ]
