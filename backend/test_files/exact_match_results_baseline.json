@@ -1,397 +1,541 @@
 [
   {
-    "id": "po_mitteilung_nr",
-    "question": "What is the FH-Mitteilung number for the 2021 Prüfungsordnung?",
-    "expected_answer": "Nr. 32 / 2021",
-    "source_file": "PO.pdf",
+    "id": "pragprog_isbn",
+    "question": "What is the ISBN of The Pragmatic Programmer?",
+    "expected_answer": "0-201-61622-X",
+    "source_file": "the-pragmatic-programmer.pdf",
     "status": "PASS",
+    "correct_source_retrieved": true,
     "retrieved_chunks": [
       {
         "rank": 1,
-        "filename": "PO.pdf",
-        "page_number": 1,
-        "similarity": 0.7778,
-        "content_snippet": "FH-Mitteilungen Herausgeber: Der Rektor der FH Aachen | Alle Rechte vorbehalten. Wiedergabe oder Druck nur mit Angabe von Quelle und Verfasser. Wiedergabe von Auszügen nur mit Genehmigung der FH Aachen. | Redaktion: Dezernat Z, Silvia Crummenerl, T +49. 241. 6009 51134 Lesbare Fassungen dienen der b"
+        "filename": "the-pragmatic-programmer.pdf",
+        "page_number": 7,
+        "similarity": 0.7456,
+        "content_snippet": "Many of the designations used by manufacturers and sellers to distinguish their products are claimed as trademarks. Where those designations appear in this book, and Addison– Wesley was aware of a trademark claim, the designations have been printed in initial capital letters or in all capitals. Lyri"
       },
       {
         "rank": 2,
-        "filename": "PO.pdf",
+        "filename": "the-pragmatic-programmer.pdf",
         "page_number": 4,
-        "similarity": 0.7505,
-        "content_snippet": "4 FH-MITTEILUNG NR. 32 / 2021 | 19. Mä Rz 2021 jahr mindestens vier Wahlmodule pro Schwerpunkt an geboten werden. (9) Im ersten und zweiten Semester müssen die Studieren den insgesamt zwei Module laut Studienverlaufsplan ( Anlage 1) aus dem Softskill Wahlkatalog (Anlage 3) aus wählen. (10) Im Falle "
+        "similarity": 0.7336,
+        "content_snippet": "The Pragmatic Programmer Prepared exclusively for Zach"
       },
       {
         "rank": 3,
-        "filename": "PO.pdf",
-        "page_number": 2,
-        "similarity": 0.7332,
-        "content_snippet": "2 FH-MITTEILUNG NR. 32 / 2021 | 19. Mä Rz 2021 Prüfungsordnung für die Bachelorstudiengänge „Informatik“ und „Informatik mit Praxissemester“ im Fachbereich Elektrotechnik und Informationstechnik an der Fachhochschule Aachen vom 5. Februar 2015 – FH-Mitteilung Nr. 11/2015 in der Fassung der Bekanntma"
+        "filename": "the-pragmatic-programmer.pdf",
+        "page_number": 6,
+        "similarity": 0.7318,
+        "content_snippet": "The Pragmatic Programmer From Journeyman to Master Andrew Hunt David Thomas ADDISON–WESLEY An imprint of Addison Wesley Longman, Inc. Reading, Massachusetts Harlow, England Menlo Park, California Berkeley, California Don Mills, Ontario Sydney Bonn Amsterdam Tokyo Mexico City Prepared exclusively for"
       },
       {
         "rank": 4,
-        "filename": "PO.pdf",
-        "page_number": 6,
-        "similarity": 0.7209,
-        "content_snippet": "6 FH-MITTEILUNG NR. 32 / 2021 | 19. Mä Rz 2021 § 12 | Bachelorarbeit und Kolloquium (1) Die Bachelorarbeit ist eine eigenständige Ausarbeitung mit einer experimentellen, entwerferischen oder einer anderen informationstechnischen Beschreibung und Erläu terung ihrer Lösung. (2) Der Umfang der Bachelor"
+        "filename": "the-pragmatic-programmer.pdf",
+        "page_number": 19,
+        "similarity": 0.7243,
+        "content_snippet": "xviii PREFACE This is where pragmatism comes in. You shouldn’t be wedded to any particular technology, but have a broad enough background and expe- rience base to allow you to choose good solutions in particular situ- ations. Your background stems from an understanding of the basic principles of com"
       },
       {
         "rank": 5,
-        "filename": "PO.pdf",
-        "page_number": 8,
-        "similarity": 0.7065,
-        "content_snippet": "8 FH-MITTEILUNG NR. 32 / 2021 | 19. Mä Rz 2021 Anlage 2 Wahlkatalog Es handelt sich bei diesem Katalog um eine beispielhafte Aufzählung der angebotenen Veranstaltungen. Diese werden nicht in jedem Semester angeboten. Die aktuell angebotenen Wahlmodule werden rechtzeitig vor Semesterbeginn bekannt ge"
+        "filename": "the-pragmatic-programmer.pdf",
+        "page_number": 346,
+        "similarity": 0.7199,
+        "content_snippet": "INDEX 321 vi editor, 266 View debugging, 164 executable documents, 251 Java tree view, 161 model-view-controller, 160, 162 model-viewer network, 162 vim editor, 266 Visual Basic, 55 Visual C++, 198 Visual SourceSafe, 271 VisualWorks, 268 W Walkthoughs, see Code reviews Warnings, compilation, 92 Web "
       }
     ]
   },
   {
-    "id": "po_module_number",
-    "question": "What is the module number for Höhere Mathematik 1 für Informatik?",
-    "expected_answer": "51101",
-    "source_file": "PO.pdf",
+    "id": "pragprog_publisher_phone",
+    "question": "What phone number does Addison Wesley Longman list for AWL Direct Sales in The Pragmatic Programmer?",
+    "expected_answer": "(781) 944-3700",
+    "source_file": "the-pragmatic-programmer.pdf",
     "status": "PASS",
+    "correct_source_retrieved": true,
     "retrieved_chunks": [
       {
         "rank": 1,
-        "filename": "PO.pdf",
+        "filename": "the-pragmatic-programmer.pdf",
         "page_number": 7,
-        "similarity": 0.7222,
-        "content_snippet": "PRüFUNGSORDNUNG | BAcHELORSTUDIENGäNGE INFORMATIK MIT UND OHNE PRAxISSEMESTER 7 (Nichtamtliche lesbare Fassung zur änderungsordnung vom 19.03.2021 | Studienbeginn ab WS 2021/22) Anlage 1 Studienverlaufspläne Kernstudium Nr. Module und Studienfächer Bezeichnung 1. 2. 3. Sem. LP V ü P V ü P V ü P SWS "
+        "similarity": 0.7317,
+        "content_snippet": "Many of the designations used by manufacturers and sellers to distinguish their products are claimed as trademarks. Where those designations appear in this book, and Addison– Wesley was aware of a trademark claim, the designations have been printed in initial capital letters or in all capitals. Lyri"
       },
       {
         "rank": 2,
-        "filename": "PO.pdf",
-        "page_number": 8,
-        "similarity": 0.6861,
-        "content_snippet": "8 FH-MITTEILUNG NR. 32 / 2021 | 19. Mä Rz 2021 Anlage 2 Wahlkatalog Es handelt sich bei diesem Katalog um eine beispielhafte Aufzählung der angebotenen Veranstaltungen. Diese werden nicht in jedem Semester angeboten. Die aktuell angebotenen Wahlmodule werden rechtzeitig vor Semesterbeginn bekannt ge"
+        "filename": "the-pragmatic-programmer.pdf",
+        "page_number": 6,
+        "similarity": 0.7276,
+        "content_snippet": "The Pragmatic Programmer From Journeyman to Master Andrew Hunt David Thomas ADDISON–WESLEY An imprint of Addison Wesley Longman, Inc. Reading, Massachusetts Harlow, England Menlo Park, California Berkeley, California Don Mills, Ontario Sydney Bonn Amsterdam Tokyo Mexico City Prepared exclusively for"
       },
       {
         "rank": 3,
-        "filename": "PO.pdf",
+        "filename": "the-pragmatic-programmer.pdf",
+        "page_number": 4,
+        "similarity": 0.6992,
+        "content_snippet": "The Pragmatic Programmer Prepared exclusively for Zach"
+      },
+      {
+        "rank": 4,
+        "filename": "the-pragmatic-programmer.pdf",
+        "page_number": 24,
+        "similarity": 0.6903,
+        "content_snippet": "PREFACE xxiii organization, for instance. When we wanted to use the conventional jargon word in a broader context, it got confusing—we couldn’t seem to overcome the baggage the original term brought with it. When this happened, we contributed to the decline of the language by inventing our own terms"
+      },
+      {
+        "rank": 5,
+        "filename": "the-pragmatic-programmer.pdf",
+        "page_number": 346,
+        "similarity": 0.689,
+        "content_snippet": "INDEX 321 vi editor, 266 View debugging, 164 executable documents, 251 Java tree view, 161 model-view-controller, 160, 162 model-viewer network, 162 vim editor, 266 Visual Basic, 55 Visual C++, 198 Visual SourceSafe, 271 VisualWorks, 268 W Walkthoughs, see Code reviews Warnings, compilation, 92 Web "
+      }
+    ]
+  },
+  {
+    "id": "pragprog_boxer_page",
+    "question": "Which song's lyrics are quoted on page 157 of The Pragmatic Programmer?",
+    "expected_answer": "The Boxer",
+    "source_file": "the-pragmatic-programmer.pdf",
+    "status": "PASS",
+    "correct_source_retrieved": true,
+    "retrieved_chunks": [
+      {
+        "rank": 1,
+        "filename": "the-pragmatic-programmer.pdf",
+        "page_number": 7,
+        "similarity": 0.7147,
+        "content_snippet": "Many of the designations used by manufacturers and sellers to distinguish their products are claimed as trademarks. Where those designations appear in this book, and Addison– Wesley was aware of a trademark claim, the designations have been printed in initial capital letters or in all capitals. Lyri"
+      },
+      {
+        "rank": 2,
+        "filename": "the-pragmatic-programmer.pdf",
+        "page_number": 4,
+        "similarity": 0.687,
+        "content_snippet": "The Pragmatic Programmer Prepared exclusively for Zach"
+      },
+      {
+        "rank": 3,
+        "filename": "the-pragmatic-programmer.pdf",
+        "page_number": 349,
+        "similarity": 0.6721,
+        "content_snippet": "This card summarizes the tips and checklists found in The Pragmatic Programmer . For more information about T HE PRAGMATIC PROGRAMMERS LLC , source code for the examples, up-to-date pointers to Web resources, and an online bibliography, visit us at www.pragmaticprogrammer.com. Quick Reference Guide "
+      },
+      {
+        "rank": 4,
+        "filename": "the-pragmatic-programmer.pdf",
+        "page_number": 243,
+        "similarity": 0.6718,
+        "content_snippet": "218 CHAPTER 7B EFORE THE PROJECT natural language expressions of the operations to be performed. 2 And natural language is really not up to the job. Look at the wording of any contract: in an attempt to be precise, lawyers have to bend the language in the most unnatural ways. Here’s a challenge for "
+      },
+      {
+        "rank": 5,
+        "filename": "the-pragmatic-programmer.pdf",
+        "page_number": 6,
+        "similarity": 0.6703,
+        "content_snippet": "The Pragmatic Programmer From Journeyman to Master Andrew Hunt David Thomas ADDISON–WESLEY An imprint of Addison Wesley Longman, Inc. Reading, Massachusetts Harlow, England Menlo Park, California Berkeley, California Don Mills, Ontario Sydney Bonn Amsterdam Tokyo Mexico City Prepared exclusively for"
+      }
+    ]
+  },
+  {
+    "id": "legacy_isbn",
+    "question": "What is the ISBN of Working Effectively with Legacy Code?",
+    "expected_answer": "0-13-117705-2",
+    "source_file": "Working-Effectively-with-Legacy-Code.pdf",
+    "status": "FAIL",
+    "correct_source_retrieved": false,
+    "retrieved_chunks": [
+      {
+        "rank": 1,
+        "filename": "the-pragmatic-programmer.pdf",
+        "page_number": 340,
+        "similarity": 0.674,
+        "content_snippet": "INDEX 315 HTTP Web server, 196 Human factors, 241 Humpty Dumpty, xxii, 165 Hungarian notation, 249 Hungry consumer model, 153 Hypertext document, 210 I iContract, 110, 114, 268 IDE, see Integrated Development Environment IEEE Computer Society, 262 IEEE Computer, 262 IEEE Software, 263 Imperative lan"
+      },
+      {
+        "rank": 2,
+        "filename": "the-pragmatic-programmer.pdf",
+        "page_number": 335,
+        "similarity": 0.6736,
+        "content_snippet": "310 INDEX Blender example contract for, 119, 289 regression test jig, 305 workﬂow, 151 BNF, see Backus-Naur Form (BNF) Boiled frog, 8, 175, 225 Boundary condition, 173, 243 Brain, Marshall, 265 Branding, 226 Brant, John, 268 “Broken Window Theory”, 5 vs. stone soup, 9 Brooks, Fred, 264 Browser, clas"
+      },
+      {
+        "rank": 3,
+        "filename": "the-pragmatic-programmer.pdf",
+        "page_number": 338,
+        "similarity": 0.6636,
+        "content_snippet": "INDEX 313 invariant, 117 mark-up languages, 254 orthogonality, 42 outline, 18 requirements, 204 technical writers, 252 word processors, 252, 254 writing speciﬁcations, 218 see also Comment; Web documentation Dodo, 148 Domain, problem, 58, 66 Don’t repeat yourself, see DRY principle Downloading sourc"
+      },
+      {
+        "rank": 4,
+        "filename": "the-pragmatic-programmer.pdf",
+        "page_number": 336,
+        "similarity": 0.6628,
+        "content_snippet": "INDEX 311 ownership, 258 prototypes, 55 server code, 196 “shy”, 40, 138 speciﬁcations, 219 tracer bullets, 49–51 unit testing, 190, 192 see also Coupled code; Decoupled code; Metadata; Source code control system (SCCS) Cohesion, 35 COM, see Component Object Model Combinatorial explosion, 140, 167 Co"
+      },
+      {
+        "rank": 5,
+        "filename": "the-pragmatic-programmer.pdf",
+        "page_number": 300,
+        "similarity": 0.6597,
+        "content_snippet": "BIBLIOGRAPHY 275 [Bra95] Marshall Brain. Win32 System Services . Prentice Hall, En- glewood Cliffs, NJ, 1995. [Bro95] Frederick P. Brooks, Jr. The Mythical Man Month: Essays on Software Engineering . Addison-Wesley, Reading, MA, an- niversary edition, 1995. [CG90] N. Carriero and D. Gelenter. How to"
+      }
+    ]
+  },
+  {
+    "id": "legacy_corporate_sales_phone",
+    "question": "What is the U.S. Corporate and Government Sales phone number in Working Effectively with Legacy Code?",
+    "expected_answer": "1-800-382-3419",
+    "source_file": "Working-Effectively-with-Legacy-Code.pdf",
+    "status": "FAIL",
+    "correct_source_retrieved": false,
+    "retrieved_chunks": [
+      {
+        "rank": 1,
+        "filename": "the-pragmatic-programmer.pdf",
+        "page_number": 335,
+        "similarity": 0.6396,
+        "content_snippet": "310 INDEX Blender example contract for, 119, 289 regression test jig, 305 workﬂow, 151 BNF, see Backus-Naur Form (BNF) Boiled frog, 8, 175, 225 Boundary condition, 173, 243 Brain, Marshall, 265 Branding, 226 Brant, John, 268 “Broken Window Theory”, 5 vs. stone soup, 9 Brooks, Fred, 264 Browser, clas"
+      },
+      {
+        "rank": 2,
+        "filename": "the-pragmatic-programmer.pdf",
+        "page_number": 340,
+        "similarity": 0.6278,
+        "content_snippet": "INDEX 315 HTTP Web server, 196 Human factors, 241 Humpty Dumpty, xxii, 165 Hungarian notation, 249 Hungry consumer model, 153 Hypertext document, 210 I iContract, 110, 114, 268 IDE, see Integrated Development Environment IEEE Computer Society, 262 IEEE Computer, 262 IEEE Software, 263 Imperative lan"
+      },
+      {
+        "rank": 3,
+        "filename": "the-pragmatic-programmer.pdf",
+        "page_number": 336,
+        "similarity": 0.6258,
+        "content_snippet": "INDEX 311 ownership, 258 prototypes, 55 server code, 196 “shy”, 40, 138 speciﬁcations, 219 tracer bullets, 49–51 unit testing, 190, 192 see also Coupled code; Decoupled code; Metadata; Source code control system (SCCS) Cohesion, 35 COM, see Component Object Model Combinatorial explosion, 140, 167 Co"
+      },
+      {
+        "rank": 4,
+        "filename": "the-pragmatic-programmer.pdf",
+        "page_number": 344,
+        "similarity": 0.6252,
+        "content_snippet": "INDEX 319 S Saboteur, 244 Samba, 272 Sample programs, see Example code Sather, 114, 268 SCCS, see Source code control system Schedule, project, 68 Schrödinger, Erwin (and his cat), 47 Scope, requirement, 209 Screen scraping, 61 Scripting language, 55, 145 Secure hash, 74 sed,9 9 Sedgewick, Robert, 1"
+      },
+      {
+        "rank": 5,
+        "filename": "the-pragmatic-programmer.pdf",
+        "page_number": 339,
+        "similarity": 0.6236,
+        "content_snippet": "314 INDEX resources and exceptions, 132, 133 side effect, 124 spaghetti error handling, 125 square root, 190 string parsing with StringTokenizer, 156 string parsing with strtok, 155 unnormalized class, 30 Example code by name AOP,4 0 Misc.java, 156 assert, 122 bad_balance.c, 129, 130 balance.cc, 134"
+      }
+    ]
+  },
+  {
+    "id": "legacy_publisher_address",
+    "question": "In which city is the Prentice Hall office located in Working Effectively with Legacy Code?",
+    "expected_answer": "Upper Saddle River, NJ 07458",
+    "source_file": "Working-Effectively-with-Legacy-Code.pdf",
+    "status": "FAIL",
+    "correct_source_retrieved": false,
+    "retrieved_chunks": [
+      {
+        "rank": 1,
+        "filename": "the-pragmatic-programmer.pdf",
+        "page_number": 6,
+        "similarity": 0.6364,
+        "content_snippet": "The Pragmatic Programmer From Journeyman to Master Andrew Hunt David Thomas ADDISON–WESLEY An imprint of Addison Wesley Longman, Inc. Reading, Massachusetts Harlow, England Menlo Park, California Berkeley, California Don Mills, Ontario Sydney Bonn Amsterdam Tokyo Mexico City Prepared exclusively for"
+      },
+      {
+        "rank": 2,
+        "filename": "the-pragmatic-programmer.pdf",
+        "page_number": 335,
+        "similarity": 0.6363,
+        "content_snippet": "310 INDEX Blender example contract for, 119, 289 regression test jig, 305 workﬂow, 151 BNF, see Backus-Naur Form (BNF) Boiled frog, 8, 175, 225 Boundary condition, 173, 243 Brain, Marshall, 265 Branding, 226 Brant, John, 268 “Broken Window Theory”, 5 vs. stone soup, 9 Brooks, Fred, 264 Browser, clas"
+      },
+      {
+        "rank": 3,
+        "filename": "the-pragmatic-programmer.pdf",
+        "page_number": 346,
+        "similarity": 0.6362,
+        "content_snippet": "INDEX 321 vi editor, 266 View debugging, 164 executable documents, 251 Java tree view, 161 model-view-controller, 160, 162 model-viewer network, 162 vim editor, 266 Visual Basic, 55 Visual C++, 198 Visual SourceSafe, 271 VisualWorks, 268 W Walkthoughs, see Code reviews Warnings, compilation, 92 Web "
+      },
+      {
+        "rank": 4,
+        "filename": "the-pragmatic-programmer.pdf",
+        "page_number": 24,
+        "similarity": 0.6357,
+        "content_snippet": "PREFACE xxiii organization, for instance. When we wanted to use the conventional jargon word in a broader context, it got confusing—we couldn’t seem to overcome the baggage the original term brought with it. When this happened, we contributed to the decline of the language by inventing our own terms"
+      },
+      {
+        "rank": 5,
+        "filename": "the-pragmatic-programmer.pdf",
+        "page_number": 7,
+        "similarity": 0.6357,
+        "content_snippet": "Many of the designations used by manufacturers and sellers to distinguish their products are claimed as trademarks. Where those designations appear in this book, and Addison– Wesley was aware of a trademark claim, the designations have been printed in initial capital letters or in all capitals. Lyri"
+      }
+    ]
+  },
+  {
+    "id": "orion_isbn",
+    "question": "What is the ISBN of the fourth edition of Turn Left at Orion?",
+    "expected_answer": "978-0-521-15397-3",
+    "source_file": "turn-left-at-orion.pdf",
+    "status": "PASS",
+    "correct_source_retrieved": true,
+    "retrieved_chunks": [
+      {
+        "rank": 1,
+        "filename": "turn-left-at-orion.pdf",
+        "page_number": 4,
+        "similarity": 0.733,
+        "content_snippet": "CAMBRIDGE UNIVERSITY PRESS Cambridge, New York, Melbourne, Madrid, Cape Town Singapore, São Paulo, Delhi, Tokyo, Mexico City Cambridge University Press The Edinburgh Building, Cambridge CB2 8RU, UK Published in the United States of America by Cambridge University Press, New York www.cambridge.org In"
+      },
+      {
+        "rank": 2,
+        "filename": "turn-left-at-orion.pdf",
         "page_number": 3,
-        "similarity": 0.6611,
-        "content_snippet": "Informatik bzw. des Bachelorstudiengangs Informatik mit Praxissemester ergeben sich aus Anlage 1. (6) Lehrveranstaltungen bestehen in der Regel aus Vor lesung, übung und Praktikum (s. Anlage 1). Lehrveranstal tungen können auch in englischer Sprache angeboten werden. Praktika beinhalten eine Anwesen"
-      },
-      {
-        "rank": 4,
-        "filename": "PO.pdf",
-        "page_number": 1,
-        "similarity": 0.6485,
-        "content_snippet": "FH-Mitteilungen Herausgeber: Der Rektor der FH Aachen | Alle Rechte vorbehalten. Wiedergabe oder Druck nur mit Angabe von Quelle und Verfasser. Wiedergabe von Auszügen nur mit Genehmigung der FH Aachen. | Redaktion: Dezernat Z, Silvia Crummenerl, T +49. 241. 6009 51134 Lesbare Fassungen dienen der b"
-      },
-      {
-        "rank": 5,
-        "filename": "PO.pdf",
-        "page_number": 9,
-        "similarity": 0.6422,
-        "content_snippet": "PRüFUNGSORDNUNG | BAcHELORSTUDIENGäNGE INFORMATIK MIT UND OHNE PRAxISSEMESTER 9 (Nichtamtliche lesbare Fassung zur änderungsordnung vom 19.03.2021 | Studienbeginn ab WS 2021/22) Anlage 3 SoftskillWahlkatalog (jeweils 2 Leistungspunkte) ModulNr. Studienfach V Ü P 55671 Training allgemeiner Kompetenze"
-      }
-    ]
-  },
-  {
-    "id": "po_phone_number",
-    "question": "What is the phone number listed for the FH Aachen editorial contact?",
-    "expected_answer": "+49. 241. 6009 51134",
-    "source_file": "PO.pdf",
-    "status": "PASS",
-    "retrieved_chunks": [
-      {
-        "rank": 1,
-        "filename": "PO.pdf",
-        "page_number": 1,
-        "similarity": 0.6476,
-        "content_snippet": "FH-Mitteilungen Herausgeber: Der Rektor der FH Aachen | Alle Rechte vorbehalten. Wiedergabe oder Druck nur mit Angabe von Quelle und Verfasser. Wiedergabe von Auszügen nur mit Genehmigung der FH Aachen. | Redaktion: Dezernat Z, Silvia Crummenerl, T +49. 241. 6009 51134 Lesbare Fassungen dienen der b"
-      },
-      {
-        "rank": 2,
-        "filename": "PO.pdf",
-        "page_number": 2,
-        "similarity": 0.5968,
-        "content_snippet": "2 FH-MITTEILUNG NR. 32 / 2021 | 19. Mä Rz 2021 Prüfungsordnung für die Bachelorstudiengänge „Informatik“ und „Informatik mit Praxissemester“ im Fachbereich Elektrotechnik und Informationstechnik an der Fachhochschule Aachen vom 5. Februar 2015 – FH-Mitteilung Nr. 11/2015 in der Fassung der Bekanntma"
+        "similarity": 0.7112,
+        "content_snippet": "Turn Left at Orion Hundreds of night sky objects to see in a home telescope – and how to ﬁ nd them FOURTH EDITION Guy Consolmagno Vatican Observatory, Vatican City State and Tucson, Arizona Dan M. Davis Stony Brook University, Stony Brook, New York Illustrated by the authors Cover and title page: Ma"
       },
       {
         "rank": 3,
-        "filename": "PO.pdf",
-        "page_number": 6,
-        "similarity": 0.5939,
-        "content_snippet": "6 FH-MITTEILUNG NR. 32 / 2021 | 19. Mä Rz 2021 § 12 | Bachelorarbeit und Kolloquium (1) Die Bachelorarbeit ist eine eigenständige Ausarbeitung mit einer experimentellen, entwerferischen oder einer anderen informationstechnischen Beschreibung und Erläu terung ihrer Lösung. (2) Der Umfang der Bachelor"
-      },
-      {
-        "rank": 4,
-        "filename": "PO.pdf",
-        "page_number": 5,
-        "similarity": 0.5924,
-        "content_snippet": "PRüFUNGSORDNUNG | BAcHELORSTUDIENGäNGE INFORMATIK MIT UND OHNE PRAxISSEMESTER 5 (Nichtamtliche lesbare Fassung zur änderungsordnung vom 19.03.2021 | Studienbeginn ab WS 2021/22) reich absolvierten Module anerkannt und die Fehlversuche angerechnet. § 9 | Praxissemester (1) Entsprechend der zielsetzun"
-      },
-      {
-        "rank": 5,
-        "filename": "PO.pdf",
-        "page_number": 8,
-        "similarity": 0.5787,
-        "content_snippet": "8 FH-MITTEILUNG NR. 32 / 2021 | 19. Mä Rz 2021 Anlage 2 Wahlkatalog Es handelt sich bei diesem Katalog um eine beispielhafte Aufzählung der angebotenen Veranstaltungen. Diese werden nicht in jedem Semester angeboten. Die aktuell angebotenen Wahlmodule werden rechtzeitig vor Semesterbeginn bekannt ge"
-      }
-    ]
-  },
-  {
-    "id": "po_original_date",
-    "question": "What is the FH-Mitteilung number of the original 2015 Prüfungsordnung before the 2021 amendment?",
-    "expected_answer": "FH-Mitteilung Nr. 11/2015",
-    "source_file": "PO.pdf",
-    "status": "PASS",
-    "retrieved_chunks": [
-      {
-        "rank": 1,
-        "filename": "PO.pdf",
-        "page_number": 1,
-        "similarity": 0.7669,
-        "content_snippet": "FH-Mitteilungen Herausgeber: Der Rektor der FH Aachen | Alle Rechte vorbehalten. Wiedergabe oder Druck nur mit Angabe von Quelle und Verfasser. Wiedergabe von Auszügen nur mit Genehmigung der FH Aachen. | Redaktion: Dezernat Z, Silvia Crummenerl, T +49. 241. 6009 51134 Lesbare Fassungen dienen der b"
-      },
-      {
-        "rank": 2,
-        "filename": "PO.pdf",
-        "page_number": 2,
-        "similarity": 0.7193,
-        "content_snippet": "2 FH-MITTEILUNG NR. 32 / 2021 | 19. Mä Rz 2021 Prüfungsordnung für die Bachelorstudiengänge „Informatik“ und „Informatik mit Praxissemester“ im Fachbereich Elektrotechnik und Informationstechnik an der Fachhochschule Aachen vom 5. Februar 2015 – FH-Mitteilung Nr. 11/2015 in der Fassung der Bekanntma"
-      },
-      {
-        "rank": 3,
-        "filename": "PO.pdf",
-        "page_number": 4,
-        "similarity": 0.7153,
-        "content_snippet": "4 FH-MITTEILUNG NR. 32 / 2021 | 19. Mä Rz 2021 jahr mindestens vier Wahlmodule pro Schwerpunkt an geboten werden. (9) Im ersten und zweiten Semester müssen die Studieren den insgesamt zwei Module laut Studienverlaufsplan ( Anlage 1) aus dem Softskill Wahlkatalog (Anlage 3) aus wählen. (10) Im Falle "
-      },
-      {
-        "rank": 4,
-        "filename": "PO.pdf",
-        "page_number": 6,
-        "similarity": 0.695,
-        "content_snippet": "6 FH-MITTEILUNG NR. 32 / 2021 | 19. Mä Rz 2021 § 12 | Bachelorarbeit und Kolloquium (1) Die Bachelorarbeit ist eine eigenständige Ausarbeitung mit einer experimentellen, entwerferischen oder einer anderen informationstechnischen Beschreibung und Erläu terung ihrer Lösung. (2) Der Umfang der Bachelor"
-      },
-      {
-        "rank": 5,
-        "filename": "PO.pdf",
+        "filename": "turn-left-at-orion.pdf",
         "page_number": 7,
+        "similarity": 0.6827,
+        "content_snippet": "sheer fun of the hunt, not to mention portability to dark sites, it’s hard to beat a three-incher! With that in mind, we’ve taken advantage of this new edition to completely revisit our favorites from twenty-ﬁ ve years ago. Everything in this book has been re-observed, with both a small Cat and a Do"
+      },
+      {
+        "rank": 4,
+        "filename": "turn-left-at-orion.pdf",
+        "page_number": 245,
+        "similarity": 0.6738,
+        "content_snippet": "Institute’s Digitized Sky Survey allows you to generate excellent photographic im- ages of any part of the sky. Such images are delightful, but in general a beginner is not very well served by either photographs or relatively complicated star charts. Photos overemphasize nebu- losity at the expense "
+      },
+      {
+        "rank": 5,
+        "filename": "turn-left-at-orion.pdf",
+        "page_number": 245,
+        "similarity": 0.6565,
+        "content_snippet": "B. Liller and B. Mayer: The Cambridge Astronomy Guide C. Luginbuhl and B. Skiff: Observing Handbook and Catalogue of Deep- Sky Objects P. Martinez: The Observer’s Guide to Astronomy H. Mills: Practical Astronomy J. Newton and P. Teece: The Guide to Amateur Astronomy G. North: Advanced Amateur As- tr"
+      }
+    ]
+  },
+  {
+    "id": "orion_first_edition_year",
+    "question": "In what year was the first edition of Turn Left at Orion published?",
+    "expected_answer": "First edition published 1989",
+    "source_file": "turn-left-at-orion.pdf",
+    "status": "PASS",
+    "correct_source_retrieved": true,
+    "retrieved_chunks": [
+      {
+        "rank": 1,
+        "filename": "turn-left-at-orion.pdf",
+        "page_number": 4,
+        "similarity": 0.6806,
+        "content_snippet": "CAMBRIDGE UNIVERSITY PRESS Cambridge, New York, Melbourne, Madrid, Cape Town Singapore, São Paulo, Delhi, Tokyo, Mexico City Cambridge University Press The Edinburgh Building, Cambridge CB2 8RU, UK Published in the United States of America by Cambridge University Press, New York www.cambridge.org In"
+      },
+      {
+        "rank": 2,
+        "filename": "turn-left-at-orion.pdf",
+        "page_number": 3,
+        "similarity": 0.6651,
+        "content_snippet": "Turn Left at Orion Hundreds of night sky objects to see in a home telescope – and how to ﬁ nd them FOURTH EDITION Guy Consolmagno Vatican Observatory, Vatican City State and Tucson, Arizona Dan M. Davis Stony Brook University, Stony Brook, New York Illustrated by the authors Cover and title page: Ma"
+      },
+      {
+        "rank": 3,
+        "filename": "turn-left-at-orion.pdf",
+        "page_number": 7,
+        "similarity": 0.6648,
+        "content_snippet": "sheer fun of the hunt, not to mention portability to dark sites, it’s hard to beat a three-incher! With that in mind, we’ve taken advantage of this new edition to completely revisit our favorites from twenty-ﬁ ve years ago. Everything in this book has been re-observed, with both a small Cat and a Do"
+      },
+      {
+        "rank": 4,
+        "filename": "turn-left-at-orion.pdf",
+        "page_number": 6,
+        "similarity": 0.6482,
+        "content_snippet": "“It’s just over here,” he said. “Point it this way, zip, and there you are.” “Neat!” I said. “A double star! You can actually see both of them!” “And look at the colors,” he said. “Wow … one of them’s yellow, and the other’s blue. What a contrast.” “Isn’t that great?” he said. “Now let’s go on to th"
+      },
+      {
+        "rank": 5,
+        "filename": "turn-left-at-orion.pdf",
+        "page_number": 245,
+        "similarity": 0.6482,
+        "content_snippet": "Institute’s Digitized Sky Survey allows you to generate excellent photographic im- ages of any part of the sky. Such images are delightful, but in general a beginner is not very well served by either photographs or relatively complicated star charts. Photos overemphasize nebu- losity at the expense "
+      }
+    ]
+  },
+  {
+    "id": "orion_vatican_telescope_size",
+    "question": "What is the mirror diameter of the Vatican Advanced Technology Telescope on Mt. Graham described in Turn Left at Orion?",
+    "expected_answer": "1.8-meter",
+    "source_file": "turn-left-at-orion.pdf",
+    "status": "PASS",
+    "correct_source_retrieved": true,
+    "retrieved_chunks": [
+      {
+        "rank": 1,
+        "filename": "turn-left-at-orion.pdf",
+        "page_number": 3,
+        "similarity": 0.6965,
+        "content_snippet": "Turn Left at Orion Hundreds of night sky objects to see in a home telescope – and how to ﬁ nd them FOURTH EDITION Guy Consolmagno Vatican Observatory, Vatican City State and Tucson, Arizona Dan M. Davis Stony Brook University, Stony Brook, New York Illustrated by the authors Cover and title page: Ma"
+      },
+      {
+        "rank": 2,
+        "filename": "turn-left-at-orion.pdf",
+        "page_number": 7,
+        "similarity": 0.6939,
+        "content_snippet": "How do you get to Albireo? 5 Introduction to the Fourth Edition: A lot has happened in the quarter century since Dan ﬁ rst showed me Albireo. Back then, we would have to tip-toe when coming in late, so as not to wake up his kids; Dan and Léonie’s babies are grown up now, almost as old as we were whe"
+      },
+      {
+        "rank": 3,
+        "filename": "turn-left-at-orion.pdf",
+        "page_number": 7,
+        "similarity": 0.691,
+        "content_snippet": "sheer fun of the hunt, not to mention portability to dark sites, it’s hard to beat a three-incher! With that in mind, we’ve taken advantage of this new edition to completely revisit our favorites from twenty-ﬁ ve years ago. Everything in this book has been re-observed, with both a small Cat and a Do"
+      },
+      {
+        "rank": 4,
+        "filename": "turn-left-at-orion.pdf",
+        "page_number": 6,
+        "similarity": 0.6831,
+        "content_snippet": "“It’s just over here,” he said. “Point it this way, zip, and there you are.” “Neat!” I said. “A double star! You can actually see both of them!” “And look at the colors,” he said. “Wow … one of them’s yellow, and the other’s blue. What a contrast.” “Isn’t that great?” he said. “Now let’s go on to th"
+      },
+      {
+        "rank": 5,
+        "filename": "turn-left-at-orion.pdf",
+        "page_number": 245,
         "similarity": 0.666,
-        "content_snippet": "PRüFUNGSORDNUNG | BAcHELORSTUDIENGäNGE INFORMATIK MIT UND OHNE PRAxISSEMESTER 7 (Nichtamtliche lesbare Fassung zur änderungsordnung vom 19.03.2021 | Studienbeginn ab WS 2021/22) Anlage 1 Studienverlaufspläne Kernstudium Nr. Module und Studienfächer Bezeichnung 1. 2. 3. Sem. LP V ü P V ü P V ü P SWS "
+        "content_snippet": "Institute’s Digitized Sky Survey allows you to generate excellent photographic im- ages of any part of the sky. Such images are delightful, but in general a beginner is not very well served by either photographs or relatively complicated star charts. Photos overemphasize nebu- losity at the expense "
       }
     ]
   },
   {
-    "id": "p4_overdraft_amount",
-    "question": "What was the exact amount of the Überziehungskredit repaid in Maßnahme 1?",
-    "expected_answer": "1.303,73 TEUR",
-    "source_file": "p4_massnahmen_ziele.md",
+    "id": "orion_orion_nebula_distance",
+    "question": "How many light years away is the Orion Nebula according to Turn Left at Orion?",
+    "expected_answer": "1,350 light years",
+    "source_file": "turn-left-at-orion.pdf",
     "status": "PASS",
+    "correct_source_retrieved": true,
     "retrieved_chunks": [
       {
         "rank": 1,
-        "filename": "p4_massnahmen_ziele.md",
-        "page_number": 1,
-        "similarity": 0.6366,
-        "content_snippet": "P4: ~800-1.000 TEUR ✓ - Finanzergebnis: Von -195 TEUR → -100 TEUR --- ### **Maßnahme 2: Personalabbau F&E** 👥 **Was wir gemacht haben:** - ❌ F&E Personal reduziert von 23 MA auf 11 MA (-12 MA) - CityBike: 8 → 4 MA - E-Bike: 15 → 6 MA **Was wir erreichen wollten:** - Personalkosten senken: **~1.260 T"
+        "filename": "turn-left-at-orion.pdf",
+        "page_number": 55,
+        "similarity": 0.7276,
+        "content_snippet": "The darker the sky, the more detail you can see in the cloud of light that is M42/M43, and the farther you can see the cloud spread out as it fades away into space. Under perfect condi- tions you might just be able to detect a slightly green hue in the nebula. With a large aperture and a nebula ﬁ lt"
       },
       {
         "rank": 2,
-        "filename": "p4_massnahmen_ziele.md",
-        "page_number": 1,
-        "similarity": 0.6207,
-        "content_snippet": "# Situationsanalyse Periode 3 → 4 ## Reflektion der letzten zurückliegenden Entscheidungen --- ## 1️⃣ RÜCKBLICK: Was waren nach Periode 3 Ihre größten Herausforderungen? ### **Herausforderung 1: Finanzielle Existenzkrise** 🔴 KRITISCH | Kennzahl | Wert P3 | Status | |----------|---------|--------| | "
+        "filename": "turn-left-at-orion.pdf",
+        "page_number": 61,
+        "similarity": 0.7155,
+        "content_snippet": "32 Orionis: Aim at Bellatrix, the right shoulder of Orion. Visible to its east in the ﬁ nderscope is 32 Orionis. The colors are particularly notable for this pair, but they are quite close; youʼll need your highest power to split them. The 32 Orionis system lies nearly 300 light years away. The sepa"
       },
       {
         "rank": 3,
-        "filename": "p4_massnahmen_ziele.md",
-        "page_number": 1,
-        "similarity": 0.5957,
-        "content_snippet": "-1.051 TEUR tödlich - **Hauptproblem:** Kosten wurden nicht genug gesenkt --- ### **Ziel 3: Personalkosten senken** ⚠️ **AMBIVALENT** **Was gut lief:** - ✅ F&E Personal: -12 MA wie geplant (23 → 11) - ✅ Einsparung F&E: ~1.260 TEUR **Was NICHT gut lief:** - ❌ Fertigung: +5 MA statt stabil (31 → 36) -"
+        "filename": "turn-left-at-orion.pdf",
+        "page_number": 57,
+        "similarity": 0.6935,
+        "content_snippet": "About diffuse nebulae The Orion Nebula is a huge cloud of gas, mostly hydrogen and helium, with a little oxygen and other elements thrown into the mix. What’s going on in this gas cloud? Apparently, the force of gravity inside the cloud causes clumps of gas to gather together until they’re big enoug"
       },
       {
         "rank": 4,
-        "filename": "p4_massnahmen_ziele.md",
-        "page_number": 1,
-        "similarity": 0.5812,
-        "content_snippet": "- Besser: 3.200 EUR (+300 EUR Marge) - → Bei 800 Stück Absatz (Preis-Volumen Trade-off) - → DB V: +240 TEUR statt -842 TEUR = **+1.082 TEUR Verbesserung!** - Option B: **E-Bike Launch verschieben** - Auf Periode 5 warten - Erst Eigenkapital aufbauen (über +1.000 TEUR) - Dann mit mehr Kapital-Puffer "
+        "filename": "turn-left-at-orion.pdf",
+        "page_number": 57,
+        "similarity": 0.6911,
+        "content_snippet": "Note that such a ﬁ lter doesn’t actually make the nebula brighter; it just makes everything else look dimmer, and thus pulls the nebula out from the ambient sky brightness, making it easier to see. The Orion Nebula 55 : < ; = > ? *)\u001b Six stars of the Trapezium (Theta-1 Orionis) can be seen in a Dobs"
       },
       {
         "rank": 5,
-        "filename": "p4_massnahmen_ziele.md",
-        "page_number": 1,
-        "similarity": 0.5781,
-        "content_snippet": "- Technologie wäre trotzdem okay: - CB: 133 → ~131 (immer noch top 3) - EB: 113,5 → ~110 (immer noch wettbewerbsfähig) **Learning:** > **\"In Krise: Survival > Innovation. Technologieführung ist schön, aber nicht wenn es dich bankrott macht!\"** --- ### **Fehler 5: Werbung E-Bike zu hoch** ⚠️ NIEDRIG "
+        "filename": "turn-left-at-orion.pdf",
+        "page_number": 59,
+        "similarity": 0.6906,
+        "content_snippet": "view, to the northwest, is another triple star system, called Struve 761. These three stars form a long narrow triangle, pointing to the north. The insets show a pair of 2' close-ups for each of the double stars. Σ7661 Sigma Ori A/B E D Sigma OriΣ761 A BC C Σ761 Sigma Ori Some useful deﬁ nitions whe"
       }
     ]
   },
   {
-    "id": "p4_equity_end",
-    "question": "What was the Eigenkapital at the end of Periode 4?",
-    "expected_answer": "-692,94 TEUR",
-    "source_file": "p4_massnahmen_ziele.md",
+    "id": "stellen_contact_email",
+    "question": "What email address should applicants use to contact the recruiter in the CeiliX Stellenanzeige?",
+    "expected_answer": "rheitz@ceilix.com",
+    "source_file": "Stellenanzeige_15597_1.pdf",
     "status": "PASS",
+    "correct_source_retrieved": true,
     "retrieved_chunks": [
       {
         "rank": 1,
-        "filename": "p4_massnahmen_ziele.md",
-        "page_number": 1,
-        "similarity": 0.7096,
-        "content_snippet": "# Situationsanalyse Periode 3 → 4 ## Reflektion der letzten zurückliegenden Entscheidungen --- ## 1️⃣ RÜCKBLICK: Was waren nach Periode 3 Ihre größten Herausforderungen? ### **Herausforderung 1: Finanzielle Existenzkrise** 🔴 KRITISCH | Kennzahl | Wert P3 | Status | |----------|---------|--------| | "
-      },
-      {
-        "rank": 2,
-        "filename": "p4_massnahmen_ziele.md",
-        "page_number": 1,
-        "similarity": 0.6798,
-        "content_snippet": "P4: ~800-1.000 TEUR ✓ - Finanzergebnis: Von -195 TEUR → -100 TEUR --- ### **Maßnahme 2: Personalabbau F&E** 👥 **Was wir gemacht haben:** - ❌ F&E Personal reduziert von 23 MA auf 11 MA (-12 MA) - CityBike: 8 → 4 MA - E-Bike: 15 → 6 MA **Was wir erreichen wollten:** - Personalkosten senken: **~1.260 T"
-      },
-      {
-        "rank": 3,
-        "filename": "p4_massnahmen_ziele.md",
-        "page_number": 1,
-        "similarity": 0.6506,
-        "content_snippet": "- Technologie wäre trotzdem okay: - CB: 133 → ~131 (immer noch top 3) - EB: 113,5 → ~110 (immer noch wettbewerbsfähig) **Learning:** > **\"In Krise: Survival > Innovation. Technologieführung ist schön, aber nicht wenn es dich bankrott macht!\"** --- ### **Fehler 5: Werbung E-Bike zu hoch** ⚠️ NIEDRIG "
-      },
-      {
-        "rank": 4,
-        "filename": "p4_massnahmen_ziele.md",
-        "page_number": 1,
-        "similarity": 0.6487,
-        "content_snippet": "-1.051 TEUR tödlich - **Hauptproblem:** Kosten wurden nicht genug gesenkt --- ### **Ziel 3: Personalkosten senken** ⚠️ **AMBIVALENT** **Was gut lief:** - ✅ F&E Personal: -12 MA wie geplant (23 → 11) - ✅ Einsparung F&E: ~1.260 TEUR **Was NICHT gut lief:** - ❌ Fertigung: +5 MA statt stabil (31 → 36) -"
-      },
-      {
-        "rank": 5,
-        "filename": "p4_massnahmen_ziele.md",
-        "page_number": 1,
-        "similarity": 0.6412,
-        "content_snippet": "- Besser: 3.200 EUR (+300 EUR Marge) - → Bei 800 Stück Absatz (Preis-Volumen Trade-off) - → DB V: +240 TEUR statt -842 TEUR = **+1.082 TEUR Verbesserung!** - Option B: **E-Bike Launch verschieben** - Auf Periode 5 warten - Erst Eigenkapital aufbauen (über +1.000 TEUR) - Dann mit mehr Kapital-Puffer "
-      }
-    ]
-  },
-  {
-    "id": "p4_loss_carryforward",
-    "question": "What was the Verlustvortrag at the end of Periode 4?",
-    "expected_answer": "-3.242,94 TEUR",
-    "source_file": "p4_massnahmen_ziele.md",
-    "status": "PASS",
-    "retrieved_chunks": [
-      {
-        "rank": 1,
-        "filename": "p4_massnahmen_ziele.md",
-        "page_number": 1,
-        "similarity": 0.6854,
-        "content_snippet": "# Situationsanalyse Periode 3 → 4 ## Reflektion der letzten zurückliegenden Entscheidungen --- ## 1️⃣ RÜCKBLICK: Was waren nach Periode 3 Ihre größten Herausforderungen? ### **Herausforderung 1: Finanzielle Existenzkrise** 🔴 KRITISCH | Kennzahl | Wert P3 | Status | |----------|---------|--------| | "
-      },
-      {
-        "rank": 2,
-        "filename": "p4_massnahmen_ziele.md",
-        "page_number": 1,
-        "similarity": 0.6662,
-        "content_snippet": "P4: ~800-1.000 TEUR ✓ - Finanzergebnis: Von -195 TEUR → -100 TEUR --- ### **Maßnahme 2: Personalabbau F&E** 👥 **Was wir gemacht haben:** - ❌ F&E Personal reduziert von 23 MA auf 11 MA (-12 MA) - CityBike: 8 → 4 MA - E-Bike: 15 → 6 MA **Was wir erreichen wollten:** - Personalkosten senken: **~1.260 T"
-      },
-      {
-        "rank": 3,
-        "filename": "p4_massnahmen_ziele.md",
-        "page_number": 1,
-        "similarity": 0.6481,
-        "content_snippet": "- Technologie wäre trotzdem okay: - CB: 133 → ~131 (immer noch top 3) - EB: 113,5 → ~110 (immer noch wettbewerbsfähig) **Learning:** > **\"In Krise: Survival > Innovation. Technologieführung ist schön, aber nicht wenn es dich bankrott macht!\"** --- ### **Fehler 5: Werbung E-Bike zu hoch** ⚠️ NIEDRIG "
-      },
-      {
-        "rank": 4,
-        "filename": "p4_massnahmen_ziele.md",
-        "page_number": 1,
-        "similarity": 0.642,
-        "content_snippet": "verkaufte E-Bike = Verlust - Selbstkosten (2.891 EUR) >> Marktpreis (~2.000-2.200 EUR) - Entweder: Preis massiv erhöhen (2.900+ EUR) → Absatz bricht ein - Oder: E-Bike stoppen → F&E Investition (2.438 TEUR) abgeschrieben #### 5. **Marktvertrauen verloren** 😞 MITTEL - Nachhaltigkeitsindex: 62,69 → 58"
-      },
-      {
-        "rank": 5,
-        "filename": "p4_massnahmen_ziele.md",
-        "page_number": 1,
-        "similarity": 0.6398,
-        "content_snippet": "-1.051 TEUR tödlich - **Hauptproblem:** Kosten wurden nicht genug gesenkt --- ### **Ziel 3: Personalkosten senken** ⚠️ **AMBIVALENT** **Was gut lief:** - ✅ F&E Personal: -12 MA wie geplant (23 → 11) - ✅ Einsparung F&E: ~1.260 TEUR **Was NICHT gut lief:** - ❌ Fertigung: +5 MA statt stabil (31 → 36) -"
-      }
-    ]
-  },
-  {
-    "id": "oos_p2_deposit_calculate_result",
-    "question": "What is the result of calculate() for a Payment of 1000€ with incomingInterest = 0.05?",
-    "expected_answer": "950€",
-    "source_file": "OOS_Praktikum_P2.pdf",
-    "status": "PASS",
-    "retrieved_chunks": [
-      {
-        "rank": 1,
-        "filename": "OOS_Praktikum_P2.pdf",
-        "page_number": 1,
-        "similarity": 0.6931,
-        "content_snippet": "Fachhochschule Aachen Fachbereich Elektrotechnik und Informationstechnik Praktikum: Objektorientierte Softwareentwicklung (OOS) Praktikum Praktikum 2 Aufgabe 1 (Funktionalität auslagern, toString und equals implementieren): In dieser Aufgabe sollen die Gemeinsamkeiten der beiden Klassen Payment und "
-      },
-      {
-        "rank": 2,
-        "filename": "OOS_Praktikum_P2.pdf",
+        "filename": "Stellenanzeige_15597_1.pdf",
         "page_number": 2,
-        "similarity": 0.6493,
-        "content_snippet": "Fachhochschule Aachen Fachbereich Elektrotechnik und Informationstechnik Praktikum: Objektorientierte Softwareentwicklung (OOS) Praktikum Aufgabe 3 (Testen der Funktionalität): In dieser Aufgabe soll die in Aufgabe 1 erstellte Funktionalität mit Hilfe einer main-Methode getestet werden. Erstellen Si"
-      },
-      {
-        "rank": 3,
-        "filename": "p4_massnahmen_ziele.md",
-        "page_number": 1,
-        "similarity": 0.5541,
-        "content_snippet": "P4: ~800-1.000 TEUR ✓ - Finanzergebnis: Von -195 TEUR → -100 TEUR --- ### **Maßnahme 2: Personalabbau F&E** 👥 **Was wir gemacht haben:** - ❌ F&E Personal reduziert von 23 MA auf 11 MA (-12 MA) - CityBike: 8 → 4 MA - E-Bike: 15 → 6 MA **Was wir erreichen wollten:** - Personalkosten senken: **~1.260 T"
-      },
-      {
-        "rank": 4,
-        "filename": "p4_massnahmen_ziele.md",
-        "page_number": 1,
-        "similarity": 0.5503,
-        "content_snippet": "verkaufte E-Bike = Verlust - Selbstkosten (2.891 EUR) >> Marktpreis (~2.000-2.200 EUR) - Entweder: Preis massiv erhöhen (2.900+ EUR) → Absatz bricht ein - Oder: E-Bike stoppen → F&E Investition (2.438 TEUR) abgeschrieben #### 5. **Marktvertrauen verloren** 😞 MITTEL - Nachhaltigkeitsindex: 62,69 → 58"
-      },
-      {
-        "rank": 5,
-        "filename": "p4_massnahmen_ziele.md",
-        "page_number": 1,
-        "similarity": 0.5453,
-        "content_snippet": "- Technologie wäre trotzdem okay: - CB: 133 → ~131 (immer noch top 3) - EB: 113,5 → ~110 (immer noch wettbewerbsfähig) **Learning:** > **\"In Krise: Survival > Innovation. Technologieführung ist schön, aber nicht wenn es dich bankrott macht!\"** --- ### **Fehler 5: Werbung E-Bike zu hoch** ⚠️ NIEDRIG "
-      }
-    ]
-  },
-  {
-    "id": "oos_p2_withdrawal_calculate_result",
-    "question": "What is the result of calculate() for a Payment of -1000€ with outgoingInterest = 0.1?",
-    "expected_answer": "-1100€",
-    "source_file": "OOS_Praktikum_P2.pdf",
-    "status": "PASS",
-    "retrieved_chunks": [
-      {
-        "rank": 1,
-        "filename": "OOS_Praktikum_P2.pdf",
-        "page_number": 1,
-        "similarity": 0.7172,
-        "content_snippet": "Fachhochschule Aachen Fachbereich Elektrotechnik und Informationstechnik Praktikum: Objektorientierte Softwareentwicklung (OOS) Praktikum Praktikum 2 Aufgabe 1 (Funktionalität auslagern, toString und equals implementieren): In dieser Aufgabe sollen die Gemeinsamkeiten der beiden Klassen Payment und "
+        "similarity": 0.7019,
+        "content_snippet": "• Hands-on Mentalität, hohes Maß an Selbstständigkeit und Organisationsfähigkeit Unser Angebot • Mitarbeit an einer revolutionären Zukunftstechnologie in einem Early Stage Startup • Echte Verantwortung von Anfang an – du treibst die Entwicklung federführend voran • Professionelles, erstklassiges Arb"
       },
       {
         "rank": 2,
-        "filename": "OOS_Praktikum_P2.pdf",
+        "filename": "Stellenanzeige_15597_1.pdf",
+        "page_number": 1,
+        "similarity": 0.6765,
+        "content_snippet": "Studentische Stelle – Full-Stack-Entwicklung / Webtool (m/w/d) Remote · bis 20 Std./Woche · CeiliX Technology GmbH Unser Unternehmen CeiliX entwickelt eine bahnbrechende Technologie, die den Kran- und Intralogistikbereich grundlegend verändern und revolutionieren wird. Unsere innovative Lösung ermög"
+      },
+      {
+        "rank": 3,
+        "filename": "Stellenanzeige_15597_1.pdf",
         "page_number": 2,
         "similarity": 0.6657,
-        "content_snippet": "Fachhochschule Aachen Fachbereich Elektrotechnik und Informationstechnik Praktikum: Objektorientierte Softwareentwicklung (OOS) Praktikum Aufgabe 3 (Testen der Funktionalität): In dieser Aufgabe soll die in Aufgabe 1 erstellte Funktionalität mit Hilfe einer main-Methode getestet werden. Erstellen Si"
-      },
-      {
-        "rank": 3,
-        "filename": "p4_massnahmen_ziele.md",
-        "page_number": 1,
-        "similarity": 0.5588,
-        "content_snippet": "-1.051 TEUR tödlich - **Hauptproblem:** Kosten wurden nicht genug gesenkt --- ### **Ziel 3: Personalkosten senken** ⚠️ **AMBIVALENT** **Was gut lief:** - ✅ F&E Personal: -12 MA wie geplant (23 → 11) - ✅ Einsparung F&E: ~1.260 TEUR **Was NICHT gut lief:** - ❌ Fertigung: +5 MA statt stabil (31 → 36) -"
+        "content_snippet": "Ceill"
       },
       {
         "rank": 4,
-        "filename": "p4_massnahmen_ziele.md",
-        "page_number": 1,
-        "similarity": 0.5584,
-        "content_snippet": "verkaufte E-Bike = Verlust - Selbstkosten (2.891 EUR) >> Marktpreis (~2.000-2.200 EUR) - Entweder: Preis massiv erhöhen (2.900+ EUR) → Absatz bricht ein - Oder: E-Bike stoppen → F&E Investition (2.438 TEUR) abgeschrieben #### 5. **Marktvertrauen verloren** 😞 MITTEL - Nachhaltigkeitsindex: 62,69 → 58"
+        "filename": "turn-left-at-orion.pdf",
+        "page_number": 33,
+        "similarity": 0.5527,
+        "content_snippet": "cA"
       },
       {
         "rank": 5,
-        "filename": "p4_massnahmen_ziele.md",
+        "filename": "turn-left-at-orion.pdf",
+        "page_number": 37,
+        "similarity": 0.5381,
+        "content_snippet": "i@"
+      }
+    ]
+  },
+  {
+    "id": "stellen_contact_name",
+    "question": "Who is the contact person for the CeiliX full-stack working-student position?",
+    "expected_answer": "Robin Heitz",
+    "source_file": "Stellenanzeige_15597_1.pdf",
+    "status": "PASS",
+    "correct_source_retrieved": true,
+    "retrieved_chunks": [
+      {
+        "rank": 1,
+        "filename": "Stellenanzeige_15597_1.pdf",
         "page_number": 1,
-        "similarity": 0.5569,
-        "content_snippet": "P4: ~800-1.000 TEUR ✓ - Finanzergebnis: Von -195 TEUR → -100 TEUR --- ### **Maßnahme 2: Personalabbau F&E** 👥 **Was wir gemacht haben:** - ❌ F&E Personal reduziert von 23 MA auf 11 MA (-12 MA) - CityBike: 8 → 4 MA - E-Bike: 15 → 6 MA **Was wir erreichen wollten:** - Personalkosten senken: **~1.260 T"
+        "similarity": 0.7791,
+        "content_snippet": "Studentische Stelle – Full-Stack-Entwicklung / Webtool (m/w/d) Remote · bis 20 Std./Woche · CeiliX Technology GmbH Unser Unternehmen CeiliX entwickelt eine bahnbrechende Technologie, die den Kran- und Intralogistikbereich grundlegend verändern und revolutionieren wird. Unsere innovative Lösung ermög"
+      },
+      {
+        "rank": 2,
+        "filename": "Stellenanzeige_15597_1.pdf",
+        "page_number": 2,
+        "similarity": 0.7358,
+        "content_snippet": "• Hands-on Mentalität, hohes Maß an Selbstständigkeit und Organisationsfähigkeit Unser Angebot • Mitarbeit an einer revolutionären Zukunftstechnologie in einem Early Stage Startup • Echte Verantwortung von Anfang an – du treibst die Entwicklung federführend voran • Professionelles, erstklassiges Arb"
+      },
+      {
+        "rank": 3,
+        "filename": "Stellenanzeige_15597_1.pdf",
+        "page_number": 2,
+        "similarity": 0.6249,
+        "content_snippet": "Ceill"
+      },
+      {
+        "rank": 4,
+        "filename": "turn-left-at-orion.pdf",
+        "page_number": 37,
+        "similarity": 0.5443,
+        "content_snippet": "i@"
+      },
+      {
+        "rank": 5,
+        "filename": "turn-left-at-orion.pdf",
+        "page_number": 33,
+        "similarity": 0.5392,
+        "content_snippet": "cA"
       }
     ]
   }
